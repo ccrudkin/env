@@ -31,10 +31,11 @@ a {
 
 .readout-container {
   text-align: center;
+  margin-bottom: 2.5em;
 }
 
 .temp {
-  color: #d68910;
+  color: #873600;
 }
 
 .hum {
