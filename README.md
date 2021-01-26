@@ -15,9 +15,9 @@ Server-side scripts will handle data requests beyond last 24-hour period.
 Graph via chart.js (?)
 
 ## Resources
-[RPIO](https://www.npmjs.com/package/rpio)
-[ExpressJS](https://expressjs.com/)
-[EJS](https://ejs.co/)
-[socket.io](https://socket.io/)
-[Raspberry Pi Pinout](https://pinout.xyz/)
-[DHT Module](https://github.com/momenso/node-dht-sensor)
+* [RPIO](https://www.npmjs.com/package/rpio)  
+* [ExpressJS](https://expressjs.com/)  
+* [EJS](https://ejs.co/)  
+* [socket.io](https://socket.io/)  
+* [Raspberry Pi Pinout](https://pinout.xyz/)  
+* [DHT Module](https://github.com/momenso/node-dht-sensor)  
