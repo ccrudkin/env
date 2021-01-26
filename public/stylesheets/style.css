@@ -6,3 +6,28 @@ body {
 a {
   color: #00B7FF;
 }
+
+.paddingTop {
+  padding-top: 1em;
+}
+
+.paddingBottom {
+  padding-bottom: 1em;
+}
+
+.paddingTopBottom {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.readout {
+  font-size: 4em;
+}
+
+.temp {
+  color: #d68910;
+}
+
+.hum {
+  color: #1a5276;
+}
