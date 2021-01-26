@@ -15,6 +15,29 @@
         <%= title %>
     </h1>
     <p>Welcome to <%= title %></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Temperature:</h2>
+                <div class="readout temp">
+                    <%= tempF %>&deg;F
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <h2>Humidity:</h2>
+                <div class="readout hum">
+                    <%= humidity %>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Date: <%= date %></p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
