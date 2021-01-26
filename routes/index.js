@@ -3,7 +3,6 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  readSensor();
   res.render('index', { title: 'Home Environment Readout', tempF: tf, 
   humidity: hum, date: date });
 });
@@ -33,3 +32,5 @@ function readSensor() {
     }
   });  
 }
+
+setInterval(readSensor(), 5000);
