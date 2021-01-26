@@ -25,7 +25,7 @@ function readSensor() {
   sensor.read(22, 4, function(err, temperature, humidity) {
     if (!err) {
       let tempF = (temperature * ( 9 / 5 )) + 32;
-      console.log(`temp: ${temperature.toFixed(1)}°C / ${tempF.toFixed(1)}°F, humidity: ${humidity.toFixed(1)}%`);
+      console.log(`temp: ${temperature.toFixed(1)}°C / ${tempF.toFixed(1)}°F, humidity: ${humidity.toFixed(1)}% @ ${date}`);
       tf = `${tempF.toFixed(1)}`;
       hum = `${humidity.toFixed(1)}`;
       date = `${getDate()}`;
