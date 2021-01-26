@@ -33,4 +33,4 @@ function readSensor() {
   });  
 }
 
-setInterval(readSensor, 5000);
+setInterval(readSensor, 60000);
