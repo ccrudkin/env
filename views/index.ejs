@@ -11,30 +11,38 @@
 </head>
 
 <body>
-    <h1>
-        <%= title %>
-    </h1>
-    <p>Welcome to <%= title %></p>
     <div class="container">
         <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-5">
-                <h2>Temperature:</h2>
-                <div class="readout temp">
-                    <%= tempF %>&deg;F
+            <div class="col-md-12">
+                <div class="heading">
+                    <h1>
+                        <%= title %>
+                    </h1>
+                    <p>Welcome to <%= title %></p>              
                 </div>
             </div>
-            <div class="col-sm-5">
-                <h2>Humidity:</h2>
-                <div class="readout hum">
-                    <%= humidity %>%
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="readout-container">
+                    <h2>Temperature:</h2>
+                    <div class="readout temp">
+                        <%= tempF %>&deg;F
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-1"></div>
+            <div class="col-sm-6">
+                <div class="readout-container">
+                    <h2>Humidity:</h2>
+                    <div class="readout hum">
+                        <%= humidity %>%
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p>Date: <%= date %></p>
+                <p class="small">Data timestamp: <%= date %></p>
             </div>
         </div>
     </div>

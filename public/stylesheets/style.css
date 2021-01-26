@@ -7,6 +7,11 @@ a {
   color: #00B7FF;
 }
 
+.heading {
+  text-align: center;
+  margin: 1em 0em 3em 0em;
+}
+
 .paddingTop {
   padding-top: 1em;
 }
@@ -22,6 +27,10 @@ a {
 
 .readout {
   font-size: 4em;
+}
+
+.readout-container {
+  text-align: center;
 }
 
 .temp {
