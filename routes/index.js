@@ -111,10 +111,11 @@ function retrieveData() {
       if ((await cursor.count()) === 0) {
         console.log("No documents found!");
       }
-      await cursor.forEach(console.dir);
+      // await cursor.forEach(console.dir);
       const allValues = await cursor.toArray();
-      console.log (`All values:\n${allValues}`);
+      // console.log (`All values:\n${allValues}`);
       rData = allValues;
+      console.log(`Data length: ${rData.length}\nMost recent log: ${rData[rData.length - 1]}`);
     } finally {
       await client.close();
     }
