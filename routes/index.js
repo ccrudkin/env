@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   retrieveData()
   .then((rData) => { 
     res.render('index', { 
-    title: 'Home Environment Monitor', tempF: tf, humidity: hum, date: date, graphData: rData }); 
+    title: 'Home Environment Monitor', tempF: tf, humidity: hum, date: date, graphData: `[${rData}]` }); 
   })
   .catch((err) => { 
     res.render('portfolio', 
@@ -120,6 +120,7 @@ function retrieveData() {
         const allValues = await cursor.toArray();
         // console.log (`All values:\n${allValues}`);
         rData = allValues;
+        console.log(rData);
         resolve(rData);
       } finally {
         await client.close();
