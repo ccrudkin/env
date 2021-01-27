@@ -16,6 +16,8 @@ var sensor = require("node-dht-sensor");
 let tf;
 let hum;
 let date;
+let location = "office";
+let mdbData;
 
 function getDate() {
     return new Date();
@@ -30,6 +32,15 @@ function readSensor() {
       date = `${getDate()}`;      
       console.log(`temp: ${temperature.toFixed(1)}°C / ${tf}°F, humidity: ${hum}% 
       @ ${date}`);
+
+      mdbData = {
+          "time": date,
+          "data": {
+              "temp": temperature,
+              "humidity": humidity
+          },
+          "location": location
+      }      
     }
   });  
 }
@@ -41,8 +52,23 @@ setInterval(readSensor, 60000);
 const MongoClient = require('mongodb').MongoClient;
 const uri = process.env.mongodbUrl;
 const client = new MongoClient(uri, { useNewUrlParser: true });
-client.connect(err => {
-  // const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});
+async function run() {
+  try {
+    await client.connect();
+
+    const database = client.db("env_logs");
+    const collection = database.collection("env");
+
+    // create a document to be inserted
+    const doc = mdbData;
+    const result = await collection.insertOne(doc);
+
+    console.log(
+      `${result.insertedCount} documents were inserted with the _id: ${result.insertedId}`,
+    );
+  } finally {
+    await client.close();
+  }
+}
+
+run().catch(console.dir);
