@@ -1,7 +1,9 @@
 var express = require('express');
 var router = express.Router();
+const processInfo = process.env;
+console.log(`Process:\n${processInfo}`);
 const uri = process.env.mongodbUrl;
-console.log(`uri: ${}`);
+console.log(`uri: ${uri}`);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
