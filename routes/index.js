@@ -1,8 +1,10 @@
+require('dotenv').config();
 var express = require('express');
 var router = express.Router();
-const processInfo = process.env;
-console.log(`Process:\n${processInfo}`);
 const uri = process.env.mongodbUrl;
+// troubleshooting, REMOVE later
+const processInfo = process.env;
+console.log(`Process info:\n${processInfo}`);
 console.log(`uri: ${uri}`);
 
 /* GET home page. */
