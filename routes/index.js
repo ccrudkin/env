@@ -6,7 +6,7 @@ const uri = process.env.mongodbUrl;
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home Environment Monitor', tempF: tf, 
-  humidity: hum, date: date });
+  humidity: hum, date: date, graphData: rData });
 });
 
 module.exports = router;
@@ -20,6 +20,7 @@ let hum;
 let date;
 let location = "office";
 let mdbData;
+let rData;
 
 function getDate() {
     return new Date();
@@ -54,7 +55,7 @@ function readSensor() {
 
 readSensor();
 setInterval(readSensor, 60000);
-// retrieveData();
+retrieveData();
 
 // post to mongoDB
 function postData(d) {
@@ -83,7 +84,6 @@ function postData(d) {
 }
 
 // read from mongoDB
-/*
 function retrieveData() {
   const { MongoClient } = require("mongodb");
   const client = new MongoClient(uri);
@@ -111,10 +111,10 @@ function retrieveData() {
       await cursor.forEach(console.dir);
       const allValues = await cursor.toArray();
       console.log (`All values:\n${allValues}`);
+      rData = allValues;
     } finally {
       await client.close();
     }
   }
   run().catch(console.dir);    
 }
-*/
