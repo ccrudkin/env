@@ -56,6 +56,7 @@ function readSensor() {
 readSensor();
 setInterval(readSensor, 60000);
 retrieveData();
+console.log(`Data length: ${rData.length}\nMost recent log: ${rData[rData.length - 1]['datetime']['timestamp']}`);
 
 // post to mongoDB
 function postData(d) {
@@ -115,7 +116,6 @@ function retrieveData() {
       const allValues = await cursor.toArray();
       // console.log (`All values:\n${allValues}`);
       rData = allValues;
-      console.log(`Data length: ${rData.length}\nMost recent log: ${rData[rData.length - 1]['datetime']['timestamp']}`);
     } finally {
       await client.close();
     }
