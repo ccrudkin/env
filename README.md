@@ -15,13 +15,16 @@ Served via Express and a simple variable held and updated in Node.
 
 ### Phase 2
 Webpage displaying current T&H as a number, and historical T&H data as a graph.  
-Served via Express, but need local storage to persist old data.  
+Served via Express, but need database to persist old data.  
 T&H recorded every 60 seconds, yielding 1,440 datapoints per day.  
 Server-side scripts will handle data requests beyond last 24-hour period.  
 Graph via chart.js (?) Or just use MongoDB Atlas visualizations (?)  
+
+### Phase 3
 Run from headless startup/disconnected from SSH.  
 Recover from power failure. 
-Add reboot button.   
+Add reboot button.  
+Push updates to page.  
 
 ## Resources
 * [RPIO](https://www.npmjs.com/package/rpio)  

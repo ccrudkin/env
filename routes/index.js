@@ -2,10 +2,6 @@ require('dotenv').config();
 var express = require('express');
 var router = express.Router();
 const uri = process.env.mongodbUrl;
-// troubleshooting, REMOVE later
-const processInfo = process.env;
-console.log(`Process info:\n${processInfo}`);
-console.log(`uri: ${uri}`);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -15,7 +11,7 @@ router.get('/', function(req, res, next) {
 
 module.exports = router;
 
-// TH handling
+// read sensor
 // sample from https://github.com/momenso/node-dht-sensor
 
 var sensor = require("node-dht-sensor");
@@ -40,7 +36,10 @@ function readSensor() {
       @ ${date}`);
 
       mdbData = {
-          "time": date,
+          "datetime": {
+              "timestamp": date,
+              "ms": Date.parse(date)
+          },
           "data": {
               "temp": temperature,
               "humidity": humidity
@@ -56,7 +55,7 @@ function readSensor() {
 readSensor();
 setInterval(readSensor, 60000);
 
-// MongoDB connection *TEMP*
+// post to mongoDB
 function postData(d) {
   const MongoClient = require('mongodb').MongoClient;
   const client = new MongoClient(uri, { useNewUrlParser: true });
@@ -80,4 +79,39 @@ function postData(d) {
   }
 
   run().catch(console.dir);
+}
+
+// read from mongoDB
+function retrieveData() {
+  const { MongoClient } = require("mongodb");
+  const client = new MongoClient(uri);
+  
+  async function run() {
+    try {
+      await client.connect();
+
+      const database = client.db("env_logs");
+      const collection = database.collection("env");
+
+      // CREATE query for the last 48 hours
+      let timeNow = new Date();
+      timeNow = Date.parse(timeNow);
+      const query = { time: { $lt: 15 } };
+      const query = { time: { ms: { $gt: (timeNow - 172800000) } } }
+      const options = {
+        // sort returned documents by datetime
+        sort: { time: { ms: 1 } },
+      };
+      const cursor = collection.find(query, options);
+      // print a message if no documents were found
+      if ((await cursor.count()) === 0) {
+        console.log("No documents found!");
+      }
+      await cursor.forEach(console.dir);
+      const allValues = await cursor.toArray();
+    } finally {
+      await client.close();
+    }
+  }
+  run().catch(console.dir);    
 }
