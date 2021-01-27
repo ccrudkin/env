@@ -29,3 +29,4 @@ Recover from power failure.
 * [socket.io](https://socket.io/)  
 * [Raspberry Pi Pinout](https://pinout.xyz/)  
 * [DHT Module](https://github.com/momenso/node-dht-sensor)  
+* [mongoDB Node Fundamentals](https://docs.mongodb.com/drivers/node/fundamentals)
