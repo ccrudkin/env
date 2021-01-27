@@ -99,9 +99,8 @@ function retrieveData() {
       let timeNow = new Date();
       timeNow = Date.parse(timeNow);
       timeWindow = timeNow - 172800000;
-      console.log(timeWindow);
-      // const query = { "location": "office" };
-      const query = { "datetime.ms": { $lt: 1611775304000 } };
+      console.log(`Time window: > ${timeWindow}`);
+      const query = { "datetime.ms": { $gt: timeWindow } };
 
       const options = {
         projection: { _id: 0 },
