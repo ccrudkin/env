@@ -7,7 +7,7 @@ const uri = process.env.mongodbUrl;
 router.get('/', function(req, res, next) {
   retrieveData()
   .then((rData) => { 
-    let currentTemp = ((rData[rData.length - 1]['data']['temp'].toFixed(1)) * ( 9 / 5 )) + 32;
+    let currentTemp = (((rData[rData.length - 1]['data']['temp']) * ( 9 / 5 )) + 32).toFixed(1);
     let currentHum = rData[rData.length - 1]['data']['humidity'].toFixed(1);
     let currentTimestamp = rData[rData.length - 1]['datetime']['timestamp'];
     res.render('index', { 
