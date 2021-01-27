@@ -54,7 +54,7 @@ function readSensor() {
 
 readSensor();
 setInterval(readSensor, 60000);
-retrieveData();
+// retrieveData();
 
 // post to mongoDB
 function postData(d) {
