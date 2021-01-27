@@ -98,7 +98,7 @@ function retrieveData() {
       // CREATE query for the last 48 hours
       let timeNow = new Date();
       timeNow = Date.parse(timeNow);
-      const query = { "ms": { $gt: (timeNow - 172800000) } }
+      const query = { "time": { "ms": { $gt: (timeNow - 172800000) } } }
       const options = {
         // sort returned documents by datetime
         sort: { "ms": 1 },
