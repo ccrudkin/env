@@ -5,11 +5,16 @@ const uri = process.env.mongodbUrl;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home Environment Monitor', tempF: tf, 
-  humidity: hum, date: date, graphData: rData });
+  retrieveData()
+  .then((rData) => { 
+    res.render('index', { 
+    title: 'Home Environment Monitor', tempF: tf, humidity: hum, date: date, graphData: rData }); 
+  })
+  .catch((err) => { 
+    res.render('portfolio', 
+    { title: 'Home Environment Monitor', tempF: tf, humidity: hum, date: date, graphData: err }); 
+  }); // change to be more useful!
 });
-
-module.exports = router;
 
 // read sensor
 // sample from https://github.com/momenso/node-dht-sensor
@@ -116,9 +121,12 @@ function retrieveData() {
       const allValues = await cursor.toArray();
       // console.log (`All values:\n${allValues}`);
       rData = allValues;
+      // deal with data here
     } finally {
       await client.close();
     }
   }
   run().catch(console.dir);    
 }
+
+module.exports = router;
