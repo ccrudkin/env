@@ -100,7 +100,8 @@ function retrieveData() {
       timeNow = Date.parse(timeNow);
       timeWindow = timeNow - 172800000;
       console.log(timeWindow);
-      const query = { "location": "office" };
+      // const query = { "location": "office" };
+      const query = { datetime: { timestamp: "Wed Jan 27 2021 12:22:45 GMT-0700 (Mountain Standard Time)" } };
 
       const options = {
         projection: { _id: 0 },
