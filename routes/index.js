@@ -43,6 +43,8 @@ function readSensor() {
           },
           "location": location
       }      
+
+      postData(d);
     }
   });  
 }
@@ -53,7 +55,7 @@ setInterval(readSensor, 60000);
 // MongoDB connection *TEMP*
 function postData() {
   const MongoClient = require('mongodb').MongoClient;
-  const client = new MongoClient(uri, { useNewUrlParser: true });
+  const client = new MongoClient(uri, { useNewUrlParser: false });
   async function run() {
     try {
       await client.connect();
@@ -62,7 +64,7 @@ function postData() {
       const collection = database.collection("env");
 
       // create a document to be inserted
-      const doc = mdbData;
+      const doc = d;
       const result = await collection.insertOne(doc);
 
       console.log(
