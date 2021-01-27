@@ -107,7 +107,7 @@ function retrieveData() {
         timeNow = Date.parse(timeNow);
         timeWindow = timeNow - 172800000;
         const query = { "datetime.ms": { $gt: timeWindow } };
-        const sort = { "datetime.ms": -1 };
+        const sort = { "datetime.ms": 1 };
         const options = {
           projection: { _id: 0 },
         };      
