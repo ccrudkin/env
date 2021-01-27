@@ -83,6 +83,7 @@ function postData(d) {
 }
 
 // read from mongoDB
+/*
 function retrieveData() {
   const { MongoClient } = require("mongodb");
   const client = new MongoClient(uri);
@@ -116,3 +117,4 @@ function retrieveData() {
   }
   run().catch(console.dir);    
 }
+*/
