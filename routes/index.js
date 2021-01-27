@@ -66,7 +66,7 @@ setInterval(readSensor, 60000);
 // post to mongoDB
 function postData(d) {
   const MongoClient = require('mongodb').MongoClient;
-  const client = new MongoClient(uri, { useNewUrlParser: true });
+  const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
   async function run() {
     try {
       await client.connect();
@@ -93,7 +93,7 @@ function postData(d) {
 function retrieveData() {
   let prom = new Promise((resolve, reject) => {
     const { MongoClient } = require("mongodb");
-    const client = new MongoClient(uri);
+    const client = new MongoClient(uri, { useUnifiedTopology: true });
     
     async function run() {
       try {
