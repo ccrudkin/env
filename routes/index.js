@@ -102,6 +102,10 @@ function retrieveData() {
       console.log(timeWindow);
       const query = { "location": "office" };
 
+      const options = {
+        projection: { _id: 0 },
+      };      
+
       const cursor = collection.find(query, options);
       // print a message if no documents were found
       if ((await cursor.count()) === 0) {
