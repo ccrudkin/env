@@ -98,10 +98,10 @@ function retrieveData() {
       // CREATE query for the last 48 hours
       let timeNow = new Date();
       timeNow = Date.parse(timeNow);
-      const query = { time: { ms: { $gt: (timeNow - 172800000) } } }
+      const query = { "ms": { $gt: (timeNow - 172800000) } }
       const options = {
         // sort returned documents by datetime
-        sort: { time: { ms: 1 } },
+        sort: { "ms": 1 },
       };
       const cursor = collection.find(query, options);
       // print a message if no documents were found
