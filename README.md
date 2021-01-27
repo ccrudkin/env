@@ -20,7 +20,8 @@ T&H recorded every 60 seconds, yielding 1,440 datapoints per day.
 Server-side scripts will handle data requests beyond last 24-hour period.  
 Graph via chart.js (?) Or just use MongoDB Atlas visualizations (?)  
 Run from headless startup/disconnected from SSH.  
-Recover from power failure.  
+Recover from power failure. 
+Add reboot button.   
 
 ## Resources
 * [RPIO](https://www.npmjs.com/package/rpio)  
