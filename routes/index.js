@@ -44,7 +44,7 @@ function readSensor() {
           "location": location
       }      
 
-      postData(d);
+      postData(mdbData);
     }
   });  
 }
@@ -53,7 +53,7 @@ readSensor();
 setInterval(readSensor, 60000);
 
 // MongoDB connection *TEMP*
-function postData() {
+function postData(d) {
   const MongoClient = require('mongodb').MongoClient;
   const client = new MongoClient(uri, { useNewUrlParser: false });
   async function run() {
