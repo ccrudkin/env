@@ -118,7 +118,7 @@ function retrieveData() {
         // await cursor.forEach(console.dir);
         const allValues = await cursor.toArray();
         // console.log (`All values:\n${allValues}`);
-        resolve(allValues);
+        resolve(allValues[0]);
       } finally {
         await client.close();
       }
