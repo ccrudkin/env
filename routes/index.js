@@ -7,12 +7,15 @@ const uri = process.env.mongodbUrl;
 router.get('/', function(req, res, next) {
   retrieveData()
   .then((rData) => { 
+    let currentTemp = rData[rData.length - 1]['data']['temp'].toFixed(1);
+    let currentHum = rData[rData.length - 1]['data']['humidity'].toFixed(1);
+    let currentTimestamp = rData[rData.length - 1]['datetime']['timestamp'];
     res.render('index', { 
-    title: 'Home Environment Monitor', tempF: tf, humidity: hum, date: date, graphData: rData }); 
+      title: 'Home Environment Monitor', tempF: currentTemp, humidity: currentHum, date: currentTimestamp }); 
   })
   .catch((err) => { 
-    res.render('portfolio', 
-    { title: 'Home Environment Monitor', tempF: tf, humidity: hum, date: date, graphData: err }); 
+    res.render('portfolio', { 
+      title: 'Home Environment Monitor', tempF: 'err', humidity: 'err', date: 'err' }); 
   }); // change to be more useful!
 });
 
@@ -109,7 +112,7 @@ function retrieveData() {
           projection: { _id: 0 },
         };      
   
-        const cursor = collection.find(query, sort, options);
+        const cursor = collection.find(query, options).sort(sort);
         // print a message if no documents were found
         if ((await cursor.count()) === 0) {
           console.log("No documents found!");
@@ -118,7 +121,7 @@ function retrieveData() {
         // await cursor.forEach(console.dir);
         const allValues = await cursor.toArray();
         // console.log (`All values:\n${allValues}`);
-        resolve(allValues[0]);
+        resolve(allValues);
       } finally {
         await client.close();
       }
