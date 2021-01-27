@@ -55,7 +55,7 @@ setInterval(readSensor, 60000);
 // MongoDB connection *TEMP*
 function postData(d) {
   const MongoClient = require('mongodb').MongoClient;
-  const client = new MongoClient(uri, { useNewUrlParser: false });
+  const client = new MongoClient(uri, { useNewUrlParser: true });
   async function run() {
     try {
       await client.connect();
