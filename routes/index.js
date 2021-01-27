@@ -101,7 +101,7 @@ function retrieveData() {
       timeWindow = timeNow - 172800000;
       console.log(timeWindow);
       // const query = { "location": "office" };
-      const query = { "datetime.timestamp": "Wed Jan 27 2021 12:21:45 GMT-0700 (Mountain Standard Time)" };
+      const query = { "datetime.ms": { $lt: 1611775304000 } };
 
       const options = {
         projection: { _id: 0 },
