@@ -89,42 +89,45 @@ function postData(d) {
 
 // read from mongoDB
 function retrieveData() {
-  const { MongoClient } = require("mongodb");
-  const client = new MongoClient(uri);
+  let prom = new Promise((resolve, reject) => {
+    const { MongoClient } = require("mongodb");
+    const client = new MongoClient(uri);
+    
+    async function run() {
+      try {
+        await client.connect();
   
-  async function run() {
-    try {
-      await client.connect();
-
-      const database = client.db("env_logs");
-      const collection = database.collection("env");
-
-      // CREATE query for the last 48 hours
-      let timeNow = new Date();
-      timeNow = Date.parse(timeNow);
-      timeWindow = timeNow - 172800000;
-      console.log(`Time window: > ${timeWindow}`);
-      const query = { "datetime.ms": { $gt: timeWindow } };
-
-      const options = {
-        projection: { _id: 0 },
-      };      
-
-      const cursor = collection.find(query, options);
-      // print a message if no documents were found
-      if ((await cursor.count()) === 0) {
-        console.log("No documents found!");
+        const database = client.db("env_logs");
+        const collection = database.collection("env");
+  
+        // CREATE query for the last 48 hours
+        let timeNow = new Date();
+        timeNow = Date.parse(timeNow);
+        timeWindow = timeNow - 172800000;
+        const query = { "datetime.ms": { $gt: timeWindow } };
+  
+        const options = {
+          projection: { _id: 0 },
+        };      
+  
+        const cursor = collection.find(query, options);
+        // print a message if no documents were found
+        if ((await cursor.count()) === 0) {
+          console.log("No documents found!");
+          reject('Retrieval error.');
+        }
+        // await cursor.forEach(console.dir);
+        const allValues = await cursor.toArray();
+        // console.log (`All values:\n${allValues}`);
+        rData = allValues;
+        resolve(rData);
+      } finally {
+        await client.close();
       }
-      // await cursor.forEach(console.dir);
-      const allValues = await cursor.toArray();
-      // console.log (`All values:\n${allValues}`);
-      rData = allValues;
-      // deal with data here
-    } finally {
-      await client.close();
     }
-  }
-  run().catch(console.dir);    
+    run().catch(console.dir);    
+  });
+  return prom;
 }
 
 module.exports = router;
