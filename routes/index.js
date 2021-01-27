@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+const uri = process.env.mongodbUrl;
+console.log(uri);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -49,26 +51,27 @@ readSensor();
 setInterval(readSensor, 60000);
 
 // MongoDB connection *TEMP*
-const MongoClient = require('mongodb').MongoClient;
-const uri = process.env.mongodbUrl;
-const client = new MongoClient(uri, { useNewUrlParser: true });
-async function run() {
-  try {
-    await client.connect();
+function postData() {
+  const MongoClient = require('mongodb').MongoClient;
+  const client = new MongoClient(uri, { useNewUrlParser: true });
+  async function run() {
+    try {
+      await client.connect();
 
-    const database = client.db("env_logs");
-    const collection = database.collection("env");
+      const database = client.db("env_logs");
+      const collection = database.collection("env");
 
-    // create a document to be inserted
-    const doc = mdbData;
-    const result = await collection.insertOne(doc);
+      // create a document to be inserted
+      const doc = mdbData;
+      const result = await collection.insertOne(doc);
 
-    console.log(
-      `${result.insertedCount} documents were inserted with the _id: ${result.insertedId}`,
-    );
-  } finally {
-    await client.close();
+      console.log(
+        `${result.insertedCount} documents were inserted with the _id: ${result.insertedId}`,
+      );
+    } finally {
+      await client.close();
+    }
   }
-}
 
-run().catch(console.dir);
+  run().catch(console.dir);
+}
