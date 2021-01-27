@@ -39,7 +39,7 @@ setInterval(readSensor, 60000);
 
 // MongoDB connection *TEMP*
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://monitor:<password>@cluster0.nsx9x.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const uri = "mongodb+srv://monitor:vsZMvQIOzlE4JXVX@cluster0.nsx9x.mongodb.net/<dbname>?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 client.connect(err => {
   const collection = client.db("test").collection("devices");
