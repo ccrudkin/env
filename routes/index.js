@@ -25,7 +25,6 @@ let hum;
 let date;
 let location = "office";
 let mdbData;
-let rData;
 
 function getDate() {
     return new Date();
@@ -105,12 +104,12 @@ function retrieveData() {
         timeNow = Date.parse(timeNow);
         timeWindow = timeNow - 172800000;
         const query = { "datetime.ms": { $gt: timeWindow } };
-  
+        const sort = { "datetime.ms": -1 };
         const options = {
           projection: { _id: 0 },
         };      
   
-        const cursor = collection.find(query, options);
+        const cursor = collection.find(query, sort, options);
         // print a message if no documents were found
         if ((await cursor.count()) === 0) {
           console.log("No documents found!");
@@ -119,8 +118,7 @@ function retrieveData() {
         // await cursor.forEach(console.dir);
         const allValues = await cursor.toArray();
         // console.log (`All values:\n${allValues}`);
-        rData = allValues;
-        resolve(rData);
+        resolve(JSON.stringify(allValues));
       } finally {
         await client.close();
       }
