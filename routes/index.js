@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const uri = process.env.mongodbUrl;
-console.log(uri);
+console.log(`uri: ${}`);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
