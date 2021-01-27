@@ -54,6 +54,7 @@ function readSensor() {
 
 readSensor();
 setInterval(readSensor, 60000);
+retrieveData();
 
 // post to mongoDB
 function postData(d) {
@@ -109,6 +110,7 @@ function retrieveData() {
       }
       await cursor.forEach(console.dir);
       const allValues = await cursor.toArray();
+      console.log (`All values:\n${allValues}`);
     } finally {
       await client.close();
     }
