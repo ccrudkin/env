@@ -1,5 +1,11 @@
 # Temperature and Humidity Monitor
 
+## TODO:
+Verify db connection to env_logs and env_logs.env collection.  
+Write and read from db.  
+Write new rows to db with each sensor reading.  
+Read most recent data from db and send to webpage (instead of sending data directly when collected).  
+
 ## Main Features Desired
 
 ### Phase 1
@@ -12,8 +18,8 @@ Webpage displaying current T&H as a number, and historical T&H data as a graph.
 Served via Express, but need local storage to persist old data.  
 T&H recorded every 60 seconds, yielding 1,440 datapoints per day.  
 Server-side scripts will handle data requests beyond last 24-hour period.  
-Graph via chart.js (?)  
-Run from headless startup.  
+Graph via chart.js (?) Or just use MongoDB Atlas visualizations (?)  
+Run from headless startup/disconnected from SSH.  
 Recover from power failure.  
 
 ## Resources
