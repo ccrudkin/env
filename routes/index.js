@@ -115,7 +115,7 @@ function retrieveData() {
       const allValues = await cursor.toArray();
       // console.log (`All values:\n${allValues}`);
       rData = allValues;
-      console.log(`Data length: ${rData.length}\nMost recent log: ${rData[rData.length - 1]}`);
+      console.log(`Data length: ${rData.length}\nMost recent log: ${rData[rData.length - 1][datetime][timestamp]}`);
     } finally {
       await client.close();
     }
