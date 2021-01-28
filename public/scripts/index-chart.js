@@ -24,13 +24,20 @@ function formatData(data) {
     let formattedH = [];
     for (i = 0; i < data.length; i++) {
         formattedT[i] = {
-            'x': data[i]['datetime']['ms'],
+            'x': data[i]['datetime']['timestamp'],
             'y': data[i]['data']['temp']
         }
     }
     console.log('Formatted data:');
     console.log(formattedT);
-    drawChart(formattedT);
+    let formattedTH = [
+        {'x': 1, 'y': 68},
+        {'x': 2, 'y': 69},
+        {'x': 3, 'y': 70},
+        {'x': 4, 'y': 72},
+        {'x': 6, 'y': 68}
+    ]
+    drawChart(formattedTH);
 }
 
 function drawChart(dataT) {
@@ -58,9 +65,6 @@ function drawChart(dataT) {
             },
             scales: {
                 xAxes: [{
-                    ticks: {
-                        maxTicksLimit: 48
-                    },
                     scaleLabel: {
                         labelString: 'Time',
                         display: true
