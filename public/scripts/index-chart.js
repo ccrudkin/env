@@ -11,7 +11,7 @@ function getData() {
                 console.log(data[1]);
             } else {
                 console.log(data);
-                drawChart(data);
+                formatData(data);
             }
         }
     });
@@ -19,12 +19,39 @@ function getData() {
 
 getData();
 
+function formatData(data) {
+    let formatted = [];
+    for (i = 0; i < data.length; i++) {
+        formatted[i] = {
+            'x': data[i]['datetime']['timestamp'],
+            'temp': data[i]['data']['temp'],
+            'hum': data[i]['data']['humidity'],
+        }
+    }
+    drawChart(formatted);
+}
+
 function drawChart(data) {
     var ctx = document.getElementById('chartFortyEight');
 
     var twoDayChart = new Chart(ctx, {
         type: 'line',
-        data: data,
+        data: {
+            datasets: [{
+                label: 'Temperature',
+                data: data,
+                parsing: {
+                    yAxisKey: 'temp'
+                }
+            },
+            {
+                label: 'Humidity',
+                data: data,
+                parsing: {
+                    yAxisKey: 'hum'
+                }
+            }]
+        },
         options: {
             legend: {
                 display: true,
