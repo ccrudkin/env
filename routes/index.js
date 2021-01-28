@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
 router.get('/data', (req, res, next) => {
   retrieveData()
   .then((rData) => {
-    res.JSON(rData);
+    res.send(rData);
   })
   .catch((err) => {
     res.send([ 'error', 'Error getting graph data.', err ]);
