@@ -24,8 +24,8 @@ function formatData(data) {
     let dataH = [];
     let labels = [];
     for (i = 0; i < data.length; i++) {
-        dataT.push(data[i]['data']['temp']);
-        dataH.push(data[i]['data']['humidity']);
+        dataT.push(((data[i]['data']['temp'] * ( 9 / 5 )) + 32).toFixed(1));
+        dataH.push(data[i]['data']['humidity'].toFixed(1));
         labels.push(data[i]['datetime']['timestamp']);
     }
 
@@ -68,7 +68,6 @@ function drawChart(data) {
             },
             scales: {
                 xAxes: [{
-                    type: 'time',
                     ticks: {
                         maxTicksLimit: 24
                     },
