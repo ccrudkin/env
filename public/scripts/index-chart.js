@@ -24,7 +24,7 @@ function formatData(data) {
     let formattedH = [];
     for (i = 0; i < data.length; i++) {
         formattedT[i] = {
-            'x': data[i]['datetime']['timestamp'],
+            'x': data[i]['datetime']['ms'],
             'y': data[i]['data']['temp']
         }
     }
