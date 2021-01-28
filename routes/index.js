@@ -19,6 +19,16 @@ router.get('/', function(req, res, next) {
   }); // change to be more useful!
 });
 
+router.get('/data', (res) => {
+  retrieveData()
+  .then((rData) => {
+    res.JSON(rData);
+  })
+  .catch((err) => {
+    res.send([ 'error', 'Error getting graph data.' ]);
+  });
+});
+
 // read sensor
 // sample from https://github.com/momenso/node-dht-sensor
 

@@ -17,7 +17,6 @@ Webpage displaying most recent temperature and humidity (T&H) datapoint.
 Webpage displaying current T&H as a number, and **historical T&H data as a graph.**  
 ~~Served via Express, but need database to persist old data.~~  
 T&H recorded every 60 seconds, yielding 1,440 datapoints per day.  
-Server-side scripts will handle data requests beyond last 48-hour period.  
 Graph via chart.js (?) ~~Or just use MongoDB Atlas visualizations (?)~~  
 
 ### Phase 3
@@ -25,6 +24,7 @@ Run from headless startup/disconnected from SSH.
 Recover from power failure. 
 Add reboot button.  
 Push updates to page.  
+Requests beyond last 48-hour period, server-side scripts will handle.  
 
 ## Resources
 * [RPIO](https://www.npmjs.com/package/rpio)  
