@@ -25,11 +25,11 @@ function formatData(data) {
     for (i = 0; i < data.length; i++) {
         formattedT[i] = {
             'x': data[i]['datetime']['timestamp'],
-            'temp': data[i]['data']['temp']
+            'y': data[i]['data']['temp']
         }
         formattedT[i] = {
             'x': data[i]['datetime']['timestamp'],
-            'hum': data[i]['data']['humidity']
+            'y': data[i]['data']['humidity']
         }
     }
     console.log('Formatted data:');
