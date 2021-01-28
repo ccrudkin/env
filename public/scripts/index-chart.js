@@ -20,32 +20,36 @@ function getData() {
 getData();
 
 function formatData(data) {
-    let formattedT = [];
-    let formattedH = [];
+    let dataT = [];
+    let dataH = [];
+    let labels = [];
     for (i = 0; i < data.length; i++) {
-        formattedT[i] = {
-            'x': data[i]['datetime']['timestamp'],
-            'y': data[i]['data']['temp']
-        }
+        dataT.push(data[i]['data']['temp']);
+        dataH.push(data[i]['data']['humidity']);
+        labels.push(data[i]['datetime']['timestamp']);
     }
-    console.log('Formatted data:');
-    console.log(formattedT);
-    let formattedTH = [
-        {'x': 1, 'y': 68},
-        {'x': 2, 'y': 69},
-        {'x': 3, 'y': 70},
-        {'x': 4, 'y': 72},
-        {'x': 6, 'y': 68}
-    ]
-    drawChart(formattedTH);
+
+    let formattedData = {
+        "labels": labels,
+        "datasets": [{
+            "label": 'Temperature',
+            "data": dataT
+        },
+        {
+            "label": 'Humidity',
+            "data": dataH
+        }]
+    }
+
+    drawChart(formattedData);
 }
 
-function drawChart(dataT) {
+function drawChart(data) {
     var ctx = document.getElementById('chartFortyEight');
 
     var twoDayChart = new Chart(ctx, {
         type: 'line',
-        data: dataT,
+        data: data,
         options: {
             legend: {
                 display: true,
