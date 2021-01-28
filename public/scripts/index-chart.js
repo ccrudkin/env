@@ -27,18 +27,13 @@ function formatData(data) {
             'x': data[i]['datetime']['timestamp'],
             'y': data[i]['data']['temp']
         }
-        formattedH[i] = {
-            'x': data[i]['datetime']['timestamp'],
-            'y': data[i]['data']['humidity']
-        }
     }
     console.log('Formatted data:');
     console.log(formattedT);
-    console.log(formattedH);
-    drawChart(formattedT, formattedH);
+    drawChart(formattedT);
 }
 
-function drawChart(dataT, dataH) {
+function drawChart(dataT) {
     var ctx = document.getElementById('chartFortyEight');
 
     var twoDayChart = new Chart(ctx, {
@@ -47,11 +42,7 @@ function drawChart(dataT, dataH) {
             datasets: [{
                 label: 'Temperature',
                 data: dataT
-            },
-            {
-                label: 'Humidity',
-                data: dataH
-            }]
+            }
         },
         options: {
             legend: {
