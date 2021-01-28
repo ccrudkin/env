@@ -33,4 +33,5 @@ Requests beyond last 48-hour period, server-side scripts will handle.
 * [socket.io](https://socket.io/)  
 * [Raspberry Pi Pinout](https://pinout.xyz/)  
 * [DHT Module](https://github.com/momenso/node-dht-sensor)  
-* [mongoDB Node Fundamentals](https://docs.mongodb.com/drivers/node/fundamentals)
+* [mongoDB Node Fundamentals](https://docs.mongodb.com/drivers/node/fundamentals)  
+* [chart.js](https://www.chartjs.org)  
