@@ -42,7 +42,7 @@ function drawChart(dataT) {
             datasets: [{
                 label: 'Temperature',
                 data: dataT
-            }
+            }]
         },
         options: {
             legend: {
