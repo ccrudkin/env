@@ -33,11 +33,15 @@ function formatData(data) {
         "labels": labels,
         "datasets": [{
             "label": 'Temperature',
-            "data": dataT
+            "data": dataT,
+            pointRadius: 0,
+            borderColor: '#873600'
         },
         {
             "label": 'Humidity',
-            "data": dataH
+            "data": dataH,
+            pointRadius: 0,
+            borderColor: '#1a5276'
         }]
     }
 
@@ -64,6 +68,11 @@ function drawChart(data) {
             },
             scales: {
                 xAxes: [{
+                    type: 'time',
+                    time: 'minute',
+                    ticks: {
+                        maxTicksLimit: 24
+                    },
                     scaleLabel: {
                         labelString: 'Time',
                         display: true
