@@ -25,7 +25,7 @@ router.get('/data', (req, res, next) => {
     res.JSON(rData);
   })
   .catch((err) => {
-    res.send([ 'error', 'Error getting graph data.' ]);
+    res.send([ 'error', 'Error getting graph data.', err ]);
   });
 });
 
