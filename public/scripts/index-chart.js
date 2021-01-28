@@ -45,7 +45,7 @@ function drawChart(dataT) {
 
     var twoDayChart = new Chart(ctx, {
         type: 'line',
-        data: data,
+        data: dataT,
         options: {
             legend: {
                 display: true,
