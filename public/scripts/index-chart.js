@@ -68,6 +68,7 @@ function drawChart(data) {
             },
             scales: {
                 xAxes: [{
+                    type: 'time',
                     ticks: {
                         maxTicksLimit: 24
                     },
