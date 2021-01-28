@@ -1,4 +1,4 @@
-function getUserData() {
+function getData() {
     $.ajax({
         url: '/data',
         type: 'GET',
@@ -15,3 +15,5 @@ function getUserData() {
         }
     });
 }
+
+getData();
