@@ -32,6 +32,9 @@ function formatData(data) {
             'hum': data[i]['data']['humidity']
         }
     }
+    console.log('Formatted data:');
+    console.log(formattedT);
+    console.log(formattedH);
     drawChart(formattedT, formattedH);
 }
 
