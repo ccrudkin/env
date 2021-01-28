@@ -29,7 +29,7 @@ function formatData(data) {
         }
     }
     console.log(`Formatted data:`);
-    console.log(formattted);
+    console.log(formatted);
     drawChart(formatted);
 }
 
