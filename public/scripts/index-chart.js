@@ -27,7 +27,7 @@ function formatData(data) {
             'x': data[i]['datetime']['timestamp'],
             'y': data[i]['data']['temp']
         }
-        formattedT[i] = {
+        formattedH[i] = {
             'x': data[i]['datetime']['timestamp'],
             'y': data[i]['data']['humidity']
         }
