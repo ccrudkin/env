@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
   }); // change to be more useful!
 });
 
-router.get('/data', (res) => {
+router.get('/data', (req, res, next) => {
   retrieveData()
   .then((rData) => {
     res.JSON(rData);
