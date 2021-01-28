@@ -47,7 +47,6 @@ function drawChart(dataT) {
         type: 'line',
         data: {
             datasets: [{
-                label: 'Temperature',
                 data: dataT
             }]
         },
