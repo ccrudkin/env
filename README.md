@@ -26,6 +26,10 @@ Add reboot button.
 Push updates to page.  
 Requests beyond last 48-hour period, server-side scripts will handle.  
 
+## Notes
+To keep running after exiting PuTTY, use `nohup npm start &` then `exit` before closing.  
+Check on background processes issue with this solution.
+
 ## Resources
 * [RPIO](https://www.npmjs.com/package/rpio)  
 * [ExpressJS](https://expressjs.com/)  
