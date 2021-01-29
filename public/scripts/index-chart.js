@@ -100,8 +100,9 @@ function drawChart(data) {
                     label: 'Temp. &deg;F',
                     offset: true,
                     scaleLabel: {
-                        labelString: 'Temp. &degF',
-                        fontSize: 16
+                        labelString: 'Temp. F',
+                        fontSize: 16,
+                        display: true
                     }
                 }, {
                     id: 'hum',
@@ -111,7 +112,8 @@ function drawChart(data) {
                     offset: true,
                     scaleLabel: {
                         labelString: 'Hum. %',
-                        fontSize: 16
+                        fontSize: 16,
+                        display: true
                     }
                 }]
             }
