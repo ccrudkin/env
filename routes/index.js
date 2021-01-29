@@ -135,7 +135,7 @@ function retrieveData() {
         // console.log (`All values:\n${allValues}`);
         resolve(allValues);
       } catch (err) {
-        console.log(`Unable to post data: ${err}`)
+        console.log(`Unable to retrieve data: ${err}`)
       } finally {
         await client.close();
       }
