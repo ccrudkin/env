@@ -66,8 +66,8 @@ function drawChart(data) {
             legend: {
                 display: true,
                 labels: {
-                    boxWidth: 10,
-                    fontSize: 10
+                    boxWidth: 12,
+                    fontSize: 12,
                 }
             },
             title: {
@@ -91,7 +91,7 @@ function drawChart(data) {
                         labelString: 'Time',
                         display: true
                     },
-                    fontSize: 14
+                    fontSize: 20
                 }],
                 yAxes: [{
                     id: 'temp',
@@ -99,14 +99,14 @@ function drawChart(data) {
                     position: 'left',
                     label: 'Temp. &deg;F',
                     offset: true,
-                    fontSize: 14
+                    fontSize: 20
                 }, {
                     id: 'hum',
                     type: 'linear',
                     position: 'right',
                     label: 'Hum. %',
                     offset: true,
-                    fontSize: 14
+                    fontSize: 20
                 }]
             }
         }
