@@ -26,7 +26,7 @@ function formatData(data) {
     for (i = 0; i < data.length; i++) {
         dataT.push(((data[i]['data']['temp'] * ( 9 / 5 )) + 32).toFixed(1));
         dataH.push(data[i]['data']['humidity'].toFixed(1));
-        labels.push(data[i]['datetime']['timestamp']);
+        labels.push(new Date(data[i]['datetime']['timestamp']).toISOString());
     }
 
     let formattedData = {
