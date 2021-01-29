@@ -38,8 +38,7 @@ function formatData(data) {
             "fill": false,
             "pointRadius": 0,
             "borderColor": '#873600',
-            "backgroundColor": "#f6ddcc",
-            "lineTension": 1
+            "backgroundColor": "#f6ddcc"
         },
         {
             "label": 'Humidity',
@@ -48,8 +47,7 @@ function formatData(data) {
             "fill": false,
             "pointRadius": 0,
             "borderColor": '#1a5276',
-            "backgroundColor": "#d4e6f1",
-            "lineTension": 1
+            "backgroundColor": "#d4e6f1"
         }]
     }
 
