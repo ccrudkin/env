@@ -72,7 +72,8 @@ function drawChart(data) {
             },
             title: {
                 display: true,
-                text: 'Temperature and Humidity'
+                text: 'Temperature and Humidity',
+                fontSize: 18,
             },
             scales: {
                 xAxes: [{
@@ -89,20 +90,23 @@ function drawChart(data) {
                     scaleLabel: {
                         labelString: 'Time',
                         display: true
-                    }
+                    },
+                    fontSize: 14
                 }],
                 yAxes: [{
                     id: 'temp',
                     type: 'linear',
                     position: 'left',
                     label: 'Temp. &deg;F',
-                    offset: true
+                    offset: true,
+                    fontSize: 14
                 }, {
                     id: 'hum',
                     type: 'linear',
                     position: 'right',
                     label: 'Hum. %',
-                    offset: true
+                    offset: true,
+                    fontSize: 14
                 }]
             }
         }
