@@ -39,7 +39,7 @@ function formatData(data) {
             "pointRadius": 0,
             "borderColor": '#873600',
             "backgroundColor": "#f6ddcc",
-            "lineTension": 10
+            "lineTension": 1
         },
         {
             "label": 'Humidity',
