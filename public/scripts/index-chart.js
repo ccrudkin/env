@@ -35,15 +35,17 @@ function formatData(data) {
             "label": 'Temperature',
             "data": dataT,
             "yAxisID": "temp",
+            "fill": false,
             "pointRadius": 0,
             "borderColor": '#873600',
             "backgroundColor": "#f6ddcc",
-            "lineTension": 1
+            "lineTension": 10
         },
         {
             "label": 'Humidity',
             "data": dataH,
             "yAxisID": "hum",
+            "fill": false,
             "pointRadius": 0,
             "borderColor": '#1a5276',
             "backgroundColor": "#d4e6f1",
@@ -74,6 +76,10 @@ function drawChart(data) {
             },
             scales: {
                 xAxes: [{
+                    type: 'time',
+                    time: {
+                        unit: 'minute'
+                    },
                     ticks: {
                         maxTicksLimit: 12
                     },
@@ -86,10 +92,12 @@ function drawChart(data) {
                     id: 'temp',
                     type: 'linear',
                     position: 'left',
+                    label: 'Temp. &deg;F'
                 }, {
                     id: 'hum',
                     type: 'linear',
                     position: 'right',
+                    label: 'Hum. %'
                 }]
             }
         }
