@@ -19,6 +19,17 @@ function getData() {
 
 getData();
 
+function formatDate(dateString) {
+    let d = new Date(dateString).toLocaleString();
+    let year = d.slice(6, 10);
+    let month = d.slice(3, 5);
+    let day = d.slice(0, 2);
+    let hour = d.slice(12, 14);
+    let minute = d.slice(15, 17);
+    let momentDate = `"${year}-${month}-${day} ${hour}:${minute}", "YYYY-MM-DD hh:mm"`;
+    return momentDate;
+}
+
 function formatData(data) {
     let dataT = [];
     let dataH = [];
@@ -26,7 +37,7 @@ function formatData(data) {
     for (i = 0; i < data.length; i++) {
         dataT.push(((data[i]['data']['temp'] * ( 9 / 5 )) + 32).toFixed(1));
         dataH.push(data[i]['data']['humidity'].toFixed(1));
-        labels.push(new Date(data[i]['datetime']['timestamp']).toISOString());
+        labels.push(formatDate(data[i]['datetime']['timestamp']));
     }
 
     let formattedData = {
