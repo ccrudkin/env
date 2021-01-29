@@ -76,8 +76,10 @@ function drawChart(data) {
                 xAxes: [{
                     type: 'time',
                     time: {
-                        unit: 'day',
-                        unit: 'minute'
+                        unit: 'minute',
+                        displayFormats: {
+                            minute: 'MMM D h:mm a'
+                        }
                     },
                     ticks: {
                         maxTicksLimit: 12
