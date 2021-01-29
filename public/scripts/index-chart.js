@@ -95,12 +95,14 @@ function drawChart(data) {
                     id: 'temp',
                     type: 'linear',
                     position: 'left',
-                    label: 'Temp. &deg;F'
+                    label: 'Temp. &deg;F',
+                    offset: true
                 }, {
                     id: 'hum',
                     type: 'linear',
                     position: 'right',
-                    label: 'Hum. %'
+                    label: 'Hum. %',
+                    offset: true
                 }]
             }
         }

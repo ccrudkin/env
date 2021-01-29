@@ -5,9 +5,9 @@
   * Why does it fail? WiFi/Internet disconnect? How to resolve?
   * CXN to mongoDB fails. On fail, try to connect to something else reliable, e.g., Google, to rule out network issues.
 * Chart aeshetics and readability
-  * Parse timestamps.  
+  * Parse timestamps. For tooltips, use [tooltip callback function](https://www.chartjs.org/docs/latest/configuration/tooltip.html).  
   * Colors.  
-  * Mobile.
+  * Mobile: don't display, display warning, or otherwise adapt to be readable.
 
 ## Main Features Desired
 
