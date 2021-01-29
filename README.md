@@ -1,10 +1,13 @@
 # Temperature and Humidity Monitor
 
 ## TODO:
-Verify db connection to env_logs and env_logs.env collection.  
-Write and read from db.  
-Write new rows to db with each sensor reading.  
-Read most recent data from db and send to webpage (instead of sending data directly when collected).  
+* Stabilize unsupervised running.
+  * Why does it fail? WiFi/Internet disconnect? How to resolve?
+  * CXN to mongoDB fails. On fail, try to connect to something else reliable, e.g., Google, to rule out network issues.
+* Chart aeshetics and readability
+  * Parse timestamps.  
+  * Colors.  
+  * Mobile.
 
 ## Main Features Desired
 
