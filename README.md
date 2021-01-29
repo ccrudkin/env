@@ -23,7 +23,8 @@ T&H recorded every 60 seconds, yielding 1,440 datapoints per day.
 Graph via chart.js (?) ~~Or just use MongoDB Atlas visualizations (?)~~  
 
 ### Phase 3
-Run from headless startup/disconnected from SSH.  
+Run disconnected from SSH.  
+Run from headless startup.  
 Recover from power failure. 
 Add reboot button.  
 Push updates to page.  
