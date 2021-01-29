@@ -89,9 +89,9 @@ function drawChart(data) {
                     },
                     scaleLabel: {
                         labelString: 'Time',
-                        display: true
-                    },
-                    fontSize: 20
+                        display: true,
+                        fontSize: 16
+                    }
                 }],
                 yAxes: [{
                     id: 'temp',
@@ -99,14 +99,18 @@ function drawChart(data) {
                     position: 'left',
                     label: 'Temp. &deg;F',
                     offset: true,
-                    fontSize: 20
+                    scaleLabel: {
+                        fontSize: 16
+                    }
                 }, {
                     id: 'hum',
                     type: 'linear',
                     position: 'right',
                     label: 'Hum. %',
                     offset: true,
-                    fontSize: 20
+                    scaleLabel: {
+                        fontSize: 16
+                    }
                 }]
             }
         }
