@@ -91,6 +91,8 @@ function postData(d) {
       console.log(
         `${result.insertedCount} documents were inserted with the _id: ${result.insertedId}`,
       );
+    } catch (err) {
+      console.log(`Unable to post data: ${err}`)
     } finally {
       await client.close();
     }
@@ -132,6 +134,8 @@ function retrieveData() {
         const allValues = await cursor.toArray();
         // console.log (`All values:\n${allValues}`);
         resolve(allValues);
+      } catch (err) {
+        console.log(`Unable to post data: ${err}`)
       } finally {
         await client.close();
       }
