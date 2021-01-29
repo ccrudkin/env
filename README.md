@@ -28,10 +28,16 @@ Recover from power failure.
 Add reboot button.  
 Push updates to page.  
 Requests beyond last 48-hour period, server-side scripts will handle.  
+Refactor code.  
 
 ## Notes
-To keep running after exiting PuTTY, use `nohup npm start &` then `exit` before closing.  
-Check on background processes issue with this solution.
+1. To keep running after exiting PuTTY, use `nohup npm start &` then `exit` before closing.  
+Check on background processes issue with this solution.  
+2. Noticed failure to connect BEFORE an initial failed post to mdb. So it seems to be the network.
+3. Strategy to catch failures: 
+  1. If server fails to connect to mongoDB Atlas, reboot. (Opt.: check another connection, like google)
+  2. Run server script on boot.
+  3. Wait 60 seconds after script start before trying to send requests to allow for wifi connection.
 
 ## Resources
 * [RPIO](https://www.npmjs.com/package/rpio)  
