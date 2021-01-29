@@ -76,7 +76,9 @@ function drawChart(data) {
                 xAxes: [{
                     type: 'time',
                     time: {
-                        unit: 'minute'
+                        displayFormats: {
+                            minute: "MMM D h:mm a"
+                        } 
                     },
                     ticks: {
                         maxTicksLimit: 12
