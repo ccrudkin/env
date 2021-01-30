@@ -30,9 +30,10 @@ Add reboot button.
 Push updates to page.  
 Requests beyond last 48-hour period, server-side scripts will handle.  
 Refactor code.  
+Add "table" mode with reduced number of data points.  
 
 ## Notes
-1. To keep running after exiting PuTTY, use `nohup npm start &` then `exit` before closing.  
+1. To keep running after exiting PuTTY, use `nohup npm start &` then `exit` before closing. Add `DEBUG=app:*` prior, as a discreet command, to turn on debugging.    
 Check on background processes issue with this solution.  
 2. Noticed failure to connect BEFORE an initial failed post to mdb. So it seems to be the network.
 3. Strategy to catch failures: 

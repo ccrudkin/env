@@ -36,7 +36,7 @@ var sensor = require("node-dht-sensor");
 let tf;
 let hum;
 let date;
-let location = "office";
+let location = "masterBR";
 let mdbData;
 
 function getDate() {
