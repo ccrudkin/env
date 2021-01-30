@@ -1,6 +1,7 @@
 require('dotenv').config();
 var express = require('express');
 var router = express.Router();
+var exec = require('child_process').exec;
 const uri = process.env.mongodbUrl;
 
 /* GET home page. */
