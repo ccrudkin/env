@@ -10,8 +10,8 @@
     * log file
 * Chart aeshetics and readability
   * Parse timestamps. For tooltips, use [tooltip callback function](https://www.chartjs.org/docs/latest/configuration/tooltip.html).  
-  * Colors.  
-  * Mobile: don't display, display warning, or otherwise adapt to be readable.
+  * \[x\] Colors.  
+  * \[x\] Mobile: don't display, display warning, or otherwise adapt to be readable.
 
 ## Main Features Desired
 
