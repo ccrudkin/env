@@ -1,11 +1,14 @@
+/* ELEMENTS */
+a {
+  color: #00B7FF;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
-}
+/* CLASSES */
 
 .heading {
   text-align: center;
@@ -40,4 +43,21 @@ a {
 
 .hum {
   color: #1a5276;
+}
+
+/* IDs */
+#smallScreenMsg {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+  #chartContainer {
+    display: none;
+  }
+  
+  #smallScreenMsg {
+    display: block;
+  }
 }
