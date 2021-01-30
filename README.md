@@ -4,6 +4,10 @@
 * Stabilize unsupervised running.
   * Why does it fail? WiFi/Internet disconnect? How to resolve?
   * CXN to mongoDB fails. On fail, try to connect to something else reliable, e.g., Google, to rule out network issues.
+  * Logging:
+    * use logger (Winston?)
+    * add DEBUG=app:* to cron task
+    * log file
 * Chart aeshetics and readability
   * Parse timestamps. For tooltips, use [tooltip callback function](https://www.chartjs.org/docs/latest/configuration/tooltip.html).  
   * Colors.  
