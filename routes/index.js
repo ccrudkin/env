@@ -70,7 +70,7 @@ function readSensor() {
   });  
 }
 
-readSensor();
+setTimeout(readSensor, 60000);
 setInterval(readSensor, 300000);
 
 // post to mongoDB
@@ -92,7 +92,8 @@ function postData(d) {
         `${result.insertedCount} documents were inserted with the _id: ${result.insertedId}`,
       );
     } catch (err) {
-      console.log(`Unable to post data: ${err}`)
+      console.log(`Unable to post data: ${err}`);
+      reboot();
     } finally {
       await client.close();
     }
@@ -144,5 +145,18 @@ function retrieveData() {
   });
   return prom;
 }
+
+function reboot() {
+
+  console.log(`Rebooting RPi @ ${new Date()} ...`);
+
+  exec('sh /usr/local/bin/reboot.sh', function(error, stdout, stderr) {
+      console.log('stdout: ' + stdout);
+      console.log('stderr: ' + stderr);
+      if (error !== null) {
+          console.log('exec error: ' + error);
+      }
+  });
+};
 
 module.exports = router;
