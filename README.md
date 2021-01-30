@@ -16,20 +16,20 @@
 ## Main Features Desired
 
 ### Phase 1
-Webpage displaying most recent temperature and humidity (T&H) datapoint.  
-~~T&H read every 60 seconds.~~  
-~~Served via Express and a simple variable held and updated in Node.~~  
+\[x\] Webpage displaying most recent temperature and humidity (T&H) datapoint.  
+\[x\] T&H read every 60 seconds.  
+\[x\] Served via Express and a simple variable held and updated in Node.  
 
 ### Phase 2
 Webpage displaying current T&H as a number, and **historical T&H data as a graph.**  
-~~Served via Express, but need database to persist old data.~~  
-T&H recorded every 60 seconds, yielding 1,440 datapoints per day.  
-Graph via chart.js (?) ~~Or just use MongoDB Atlas visualizations (?)~~  
+\[x\] Served via Express, but need database to persist old data.  
+\[x\] T&H recorded every 300 seconds, yielding 288 datapoints per day.  
+\[x\] Graph via chart.js  
 
 ### Phase 3
-Run disconnected from SSH.  
-Run from headless startup.  
-Recover from power failure. 
+\[x\] Run disconnected from SSH.  
+\[x\] Run from headless startup.  
+\[x\] Recover from power failure. 
 Add reboot button.  
 Push updates to page.  
 Requests beyond last 48-hour period, server-side scripts will handle.  
