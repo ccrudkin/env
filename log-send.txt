@@ -1,0 +1,1136 @@
+Log start: 2021-01-31 10:30 am (manual entry)
+--
+
+> env@0.0.0 start
+> node ./bin/www
+
+[0mGET / [32m200 [0m2986.617 ms - 2632[0m
+[0mGET /stylesheets/style.css [32m200 [0m19.367 ms - 709[0m
+[0mGET /scripts/index-chart.js [36m304 [0m7.132 ms - -[0m
+[0mGET /images/favicon.png [0m- [0m- ms - -[0m
+[0mGET /data [32m200 [0m1303.497 ms - 87294[0m
+temp: 22.2°C / 72.0°F, humidity: 31.5% 
+      @ Sun Jan 31 2021 10:32:12 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016e99e5a412b02cc666fbb
+temp: 22.1°C / 71.8°F, humidity: 31.5% 
+      @ Sun Jan 31 2021 10:36:13 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016ea8e5a412b02cc666fbc
+temp: 22.1°C / 71.8°F, humidity: 31.5% 
+      @ Sun Jan 31 2021 10:41:13 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016ebba5a412b02cc666fbd
+[0mGET / [32m200 [0m1539.317 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.826 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m1.824 ms - -[0m
+[0mGET /data [32m200 [0m1417.635 ms - 87320[0m
+temp: 22.1°C / 71.8°F, humidity: 31.5% 
+      @ Sun Jan 31 2021 10:46:13 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016ece65a412b02cc666fbe
+[0mGET / [32m200 [0m1520.664 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.090 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m3.555 ms - -[0m
+[0mGET /data [32m200 [0m1424.185 ms - 87322[0m
+temp: 22.0°C / 71.6°F, humidity: 31.4% 
+      @ Sun Jan 31 2021 10:51:13 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016ee125a412b02cc666fbf
+temp: 22.0°C / 71.6°F, humidity: 30.9% 
+      @ Sun Jan 31 2021 10:56:13 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016ef3e5a412b02cc666fc0
+temp: 22.0°C / 71.6°F, humidity: 31.0% 
+      @ Sun Jan 31 2021 11:01:13 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016f06a5a412b02cc666fc1
+temp: 21.9°C / 71.4°F, humidity: 31.2% 
+      @ Sun Jan 31 2021 11:06:13 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016f1965a412b02cc666fc2
+temp: 21.8°C / 71.2°F, humidity: 31.1% 
+      @ Sun Jan 31 2021 11:11:13 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016f2c25a412b02cc666fc3
+temp: 21.8°C / 71.2°F, humidity: 31.6% 
+      @ Sun Jan 31 2021 11:16:13 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 11:18:43 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 21.6°C / 70.9°F, humidity: 31.4% 
+      @ Sun Jan 31 2021 11:20:24 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016f4ea9f81bd02dd862623
+temp: 21.7°C / 71.1°F, humidity: 31.5% 
+      @ Sun Jan 31 2021 11:24:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016f5d89f81bd02dd862624
+temp: 21.6°C / 70.9°F, humidity: 31.9% 
+      @ Sun Jan 31 2021 11:29:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016f7049f81bd02dd862625
+[0mGET / [32m200 [0m2130.545 ms - 2632[0m
+[0mGET /stylesheets/style.css [32m200 [0m14.212 ms - 709[0m
+[0mGET /scripts/index-chart.js [36m304 [0m3.289 ms - -[0m
+[0mGET /images/favicon.png [0m- [0m- ms - -[0m
+[0mGET /data [32m200 [0m1349.221 ms - 87496[0m
+temp: 21.7°C / 71.1°F, humidity: 32.4% 
+      @ Sun Jan 31 2021 11:34:23 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 11:36:53 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 21.6°C / 70.9°F, humidity: 31.4% 
+      @ Sun Jan 31 2021 11:38:55 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 11:41:26 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 21.5°C / 70.7°F, humidity: 31.8% 
+      @ Sun Jan 31 2021 11:43:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016fa6bfae63b02cab37889
+[0mGET / [32m200 [0m1606.138 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m9.634 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m5.283 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m6.517 ms - -[0m
+[0mGET /data [32m200 [0m1396.007 ms - 87144[0m
+temp: 21.6°C / 70.9°F, humidity: 32.1% 
+      @ Sun Jan 31 2021 11:47:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016fb5afae63b02cab3788a
+temp: 21.5°C / 70.7°F, humidity: 32.1% 
+      @ Sun Jan 31 2021 11:52:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016fc86fae63b02cab3788b
+temp: 21.6°C / 70.9°F, humidity: 34.1% 
+      @ Sun Jan 31 2021 11:57:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016fdb7fae63b02cab3788c
+temp: 21.5°C / 70.7°F, humidity: 34.7% 
+      @ Sun Jan 31 2021 12:02:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6016ff4cfae63b02cab3788d
+temp: 21.5°C / 70.7°F, humidity: 35.2% 
+      @ Sun Jan 31 2021 12:07:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017000afae63b02cab3788e
+temp: 21.4°C / 70.5°F, humidity: 37.5% 
+      @ Sun Jan 31 2021 12:12:53 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 12:15:23 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 21.4°C / 70.5°F, humidity: 37.9% 
+      @ Sun Jan 31 2021 12:17:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601702616a0ae702c881fa74
+temp: 21.4°C / 70.5°F, humidity: 40.1% 
+      @ Sun Jan 31 2021 12:21:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601703506a0ae702c881fa75
+temp: 21.3°C / 70.3°F, humidity: 39.4% 
+      @ Sun Jan 31 2021 12:26:51 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 12:29:22 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 21.1°C / 70.0°F, humidity: 41.2% 
+      @ Sun Jan 31 2021 12:30:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601705714a4f1802c8b96a7e
+temp: 21.1°C / 70.0°F, humidity: 41.1% 
+      @ Sun Jan 31 2021 12:34:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601706644a4f1802c8b96a7f
+temp: 21.0°C / 69.8°F, humidity: 40.5% 
+      @ Sun Jan 31 2021 12:39:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017078c4a4f1802c8b96a80
+[0mGET / [32m200 [0m1694.336 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m15.118 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m6.659 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m6.380 ms - -[0m
+[0mGET /data [32m200 [0m1480.152 ms - 87519[0m
+temp: 21.0°C / 69.8°F, humidity: 40.5% 
+      @ Sun Jan 31 2021 12:44:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601708b74a4f1802c8b96a81
+temp: 21.0°C / 69.8°F, humidity: 40.7% 
+      @ Sun Jan 31 2021 12:49:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601709e44a4f1802c8b96a82
+temp: 20.9°C / 69.6°F, humidity: 40.8% 
+      @ Sun Jan 31 2021 12:54:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60170b104a4f1802c8b96a83
+temp: 20.9°C / 69.6°F, humidity: 40.4% 
+      @ Sun Jan 31 2021 12:59:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60170c3c4a4f1802c8b96a84
+temp: 20.8°C / 69.4°F, humidity: 40.1% 
+      @ Sun Jan 31 2021 13:04:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60170dae4a4f1802c8b96a85
+temp: 20.8°C / 69.4°F, humidity: 39.7% 
+      @ Sun Jan 31 2021 13:09:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60170e944a4f1802c8b96a86
+[0mGET / [32m200 [0m1575.378 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.323 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m3.376 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m3.287 ms - -[0m
+[0mGET /data [32m200 [0m1471.030 ms - 86808[0m
+temp: 20.8°C / 69.4°F, humidity: 39.5% 
+      @ Sun Jan 31 2021 13:14:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60170fc04a4f1802c8b96a87
+temp: 20.7°C / 69.3°F, humidity: 39.3% 
+      @ Sun Jan 31 2021 13:19:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601710ec4a4f1802c8b96a88
+temp: 20.7°C / 69.3°F, humidity: 39.6% 
+      @ Sun Jan 31 2021 13:24:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601712184a4f1802c8b96a89
+temp: 20.7°C / 69.3°F, humidity: 39.5% 
+      @ Sun Jan 31 2021 13:29:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601713444a4f1802c8b96a8a
+temp: 20.7°C / 69.3°F, humidity: 39.3% 
+      @ Sun Jan 31 2021 13:34:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601714704a4f1802c8b96a8b
+temp: 20.6°C / 69.1°F, humidity: 39.2% 
+      @ Sun Jan 31 2021 13:39:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017159c4a4f1802c8b96a8c
+temp: 20.5°C / 68.9°F, humidity: 39.3% 
+      @ Sun Jan 31 2021 13:44:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601716c84a4f1802c8b96a8d
+[0mGET / [32m200 [0m1445.244 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.393 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m3.554 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m3.500 ms - -[0m
+[0mGET /data [32m200 [0m1389.150 ms - 86392[0m
+temp: 20.5°C / 68.9°F, humidity: 39.1% 
+      @ Sun Jan 31 2021 13:49:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601717f44a4f1802c8b96a8e
+temp: 20.5°C / 68.9°F, humidity: 39.1% 
+      @ Sun Jan 31 2021 13:54:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601719214a4f1802c8b96a8f
+temp: 20.5°C / 68.9°F, humidity: 39.4% 
+      @ Sun Jan 31 2021 13:59:55 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60171a4d4a4f1802c8b96a90
+temp: 20.4°C / 68.7°F, humidity: 39.3% 
+      @ Sun Jan 31 2021 14:04:56 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60171b794a4f1802c8b96a91
+temp: 20.4°C / 68.7°F, humidity: 38.7% 
+      @ Sun Jan 31 2021 14:09:56 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60171ca54a4f1802c8b96a92
+temp: 20.4°C / 68.7°F, humidity: 39.2% 
+      @ Sun Jan 31 2021 14:14:56 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 14:17:26 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 20.4°C / 68.7°F, humidity: 39.1% 
+      @ Sun Jan 31 2021 14:19:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60171ecd5cfbbf02e9febff3
+temp: 20.3°C / 68.5°F, humidity: 39.0% 
+      @ Sun Jan 31 2021 14:23:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60171fbd5cfbbf02e9febff4
+temp: 20.2°C / 68.4°F, humidity: 38.8% 
+      @ Sun Jan 31 2021 14:28:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601720e85cfbbf02e9febff5
+temp: 20.2°C / 68.4°F, humidity: 38.8% 
+      @ Sun Jan 31 2021 14:33:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601722145cfbbf02e9febff6
+temp: 20.2°C / 68.4°F, humidity: 38.8% 
+      @ Sun Jan 31 2021 14:38:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017233f5cfbbf02e9febff7
+temp: 20.1°C / 68.2°F, humidity: 38.4% 
+      @ Sun Jan 31 2021 14:43:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017246c5cfbbf02e9febff8
+[0mGET / [32m200 [0m1622.285 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.277 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m1.968 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m7.667 ms - -[0m
+[0mGET /data [32m200 [0m1327.028 ms - 86379[0m
+temp: 20.2°C / 68.4°F, humidity: 31.1% 
+      @ Sun Jan 31 2021 14:48:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601725985cfbbf02e9febff9
+temp: 20.2°C / 68.4°F, humidity: 29.1% 
+      @ Sun Jan 31 2021 14:53:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601726c45cfbbf02e9febffa
+temp: 20.0°C / 68.0°F, humidity: 34.3% 
+      @ Sun Jan 31 2021 14:58:06 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601727f05cfbbf02e9febffb
+temp: 20.0°C / 68.0°F, humidity: 36.6% 
+      @ Sun Jan 31 2021 15:03:07 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017291c5cfbbf02e9febffc
+temp: 19.9°C / 67.8°F, humidity: 36.2% 
+      @ Sun Jan 31 2021 15:08:07 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 15:10:37 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 19.9°C / 67.8°F, humidity: 36.4% 
+      @ Sun Jan 31 2021 15:12:45 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60172b606e31e502df5f1fd2
+temp: 19.9°C / 67.8°F, humidity: 36.6% 
+      @ Sun Jan 31 2021 15:16:45 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60172c4f6e31e502df5f1fd3
+temp: 19.8°C / 67.6°F, humidity: 35.9% 
+      @ Sun Jan 31 2021 15:21:45 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60172d7b6e31e502df5f1fd4
+temp: 19.8°C / 67.6°F, humidity: 35.8% 
+      @ Sun Jan 31 2021 15:26:45 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60172ea76e31e502df5f1fd5
+[0mGET / [32m200 [0m7705.968 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m15.769 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m16.222 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m3.175 ms - -[0m
+[0mGET /data [32m200 [0m1589.994 ms - 86183[0m
+temp: 19.8°C / 67.6°F, humidity: 35.6% 
+      @ Sun Jan 31 2021 15:31:45 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60172fd26e31e502df5f1fd6
+temp: 19.7°C / 67.5°F, humidity: 36.1% 
+      @ Sun Jan 31 2021 15:36:46 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601730ff6e31e502df5f1fd7
+[0mGET / [32m200 [0m1435.415 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.420 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m3.548 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m3.432 ms - -[0m
+[0mGET /data [32m200 [0m1294.078 ms - 86379[0m
+temp: 19.7°C / 67.5°F, humidity: 36.1% 
+      @ Sun Jan 31 2021 15:41:45 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 15:44:15 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 19.7°C / 67.5°F, humidity: 36.1% 
+      @ Sun Jan 31 2021 15:45:48 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017331f71e1b402e0ef1ca9
+temp: 19.6°C / 67.3°F, humidity: 36.1% 
+      @ Sun Jan 31 2021 15:49:48 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017340e71e1b402e0ef1caa
+temp: 19.6°C / 67.3°F, humidity: 36.2% 
+      @ Sun Jan 31 2021 15:54:49 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017353a71e1b402e0ef1cab
+temp: 19.5°C / 67.1°F, humidity: 36.2% 
+      @ Sun Jan 31 2021 15:59:48 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017366571e1b402e0ef1cac
+temp: 19.5°C / 67.1°F, humidity: 36.4% 
+      @ Sun Jan 31 2021 16:04:48 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017379271e1b402e0ef1cad
+temp: 19.5°C / 67.1°F, humidity: 37.0% 
+      @ Sun Jan 31 2021 16:09:48 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601738bd71e1b402e0ef1cae
+temp: 19.5°C / 67.1°F, humidity: 37.2% 
+      @ Sun Jan 31 2021 16:14:48 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601739e971e1b402e0ef1caf
+temp: 19.5°C / 67.1°F, humidity: 37.5% 
+      @ Sun Jan 31 2021 16:19:48 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 16:22:19 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 19.5°C / 67.1°F, humidity: 38.1% 
+      @ Sun Jan 31 2021 16:24:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60173c2a3d4acd02cb271c42
+temp: 19.4°C / 66.9°F, humidity: 38.0% 
+      @ Sun Jan 31 2021 16:28:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60173d183d4acd02cb271c43
+temp: 19.4°C / 66.9°F, humidity: 38.1% 
+      @ Sun Jan 31 2021 16:33:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60173e443d4acd02cb271c44
+temp: 19.4°C / 66.9°F, humidity: 38.2% 
+      @ Sun Jan 31 2021 16:38:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60173f703d4acd02cb271c45
+temp: 19.4°C / 66.9°F, humidity: 38.2% 
+      @ Sun Jan 31 2021 16:43:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017409c3d4acd02cb271c46
+temp: 19.4°C / 66.9°F, humidity: 38.2% 
+      @ Sun Jan 31 2021 16:48:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601741c83d4acd02cb271c47
+temp: 19.4°C / 66.9°F, humidity: 38.2% 
+      @ Sun Jan 31 2021 16:53:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601742f43d4acd02cb271c48
+temp: 19.4°C / 66.9°F, humidity: 38.3% 
+      @ Sun Jan 31 2021 16:58:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601744213d4acd02cb271c49
+temp: 19.3°C / 66.7°F, humidity: 38.2% 
+      @ Sun Jan 31 2021 17:03:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017454c3d4acd02cb271c4a
+temp: 19.3°C / 66.7°F, humidity: 38.3% 
+      @ Sun Jan 31 2021 17:08:24 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601746793d4acd02cb271c4b
+temp: 19.3°C / 66.7°F, humidity: 38.3% 
+      @ Sun Jan 31 2021 17:13:24 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601747a53d4acd02cb271c4c
+temp: 19.2°C / 66.6°F, humidity: 38.3% 
+      @ Sun Jan 31 2021 17:18:24 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601748d13d4acd02cb271c4d
+temp: 19.2°C / 66.6°F, humidity: 38.3% 
+      @ Sun Jan 31 2021 17:23:24 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601749fd3d4acd02cb271c4e
+temp: 19.2°C / 66.6°F, humidity: 38.3% 
+      @ Sun Jan 31 2021 17:28:24 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 17:30:54 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 19.2°C / 66.6°F, humidity: 38.3% 
+      @ Sun Jan 31 2021 17:32:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60174c25af11e702ded8aad8
+temp: 19.1°C / 66.4°F, humidity: 38.4% 
+      @ Sun Jan 31 2021 17:36:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60174d13af11e702ded8aad9
+temp: 19.1°C / 66.4°F, humidity: 38.3% 
+      @ Sun Jan 31 2021 17:41:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60174e45af11e702ded8aada
+temp: 19.1°C / 66.4°F, humidity: 38.4% 
+      @ Sun Jan 31 2021 17:46:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60174f6caf11e702ded8aadb
+temp: 19.0°C / 66.2°F, humidity: 38.0% 
+      @ Sun Jan 31 2021 17:51:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60175098af11e702ded8aadc
+temp: 19.2°C / 66.6°F, humidity: 37.3% 
+      @ Sun Jan 31 2021 17:56:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601751c4af11e702ded8aadd
+temp: 19.5°C / 67.1°F, humidity: 36.0% 
+      @ Sun Jan 31 2021 18:01:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601752f0af11e702ded8aade
+temp: 19.2°C / 66.6°F, humidity: 37.0% 
+      @ Sun Jan 31 2021 18:06:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017541caf11e702ded8aadf
+temp: 19.1°C / 66.4°F, humidity: 37.2% 
+      @ Sun Jan 31 2021 18:11:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60175548af11e702ded8aae0
+temp: 19.0°C / 66.2°F, humidity: 37.0% 
+      @ Sun Jan 31 2021 18:16:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60175674af11e702ded8aae1
+temp: 19.8°C / 67.6°F, humidity: 36.4% 
+      @ Sun Jan 31 2021 18:21:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601757a0af11e702ded8aae2
+temp: 19.4°C / 66.9°F, humidity: 35.8% 
+      @ Sun Jan 31 2021 18:26:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601758ccaf11e702ded8aae3
+temp: 19.2°C / 66.6°F, humidity: 36.2% 
+      @ Sun Jan 31 2021 18:31:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601759f8af11e702ded8aae4
+temp: 19.2°C / 66.6°F, humidity: 36.5% 
+      @ Sun Jan 31 2021 18:36:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60175b24af11e702ded8aae5
+temp: 19.7°C / 67.5°F, humidity: 35.9% 
+      @ Sun Jan 31 2021 18:41:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60175c50af11e702ded8aae6
+temp: 19.6°C / 67.3°F, humidity: 34.5% 
+      @ Sun Jan 31 2021 18:46:35 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60175d7caf11e702ded8aae7
+temp: 19.3°C / 66.7°F, humidity: 35.8% 
+      @ Sun Jan 31 2021 18:51:36 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60175ea9af11e702ded8aae8
+temp: 19.7°C / 67.5°F, humidity: 35.5% 
+      @ Sun Jan 31 2021 18:56:36 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 18:59:07 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 19.7°C / 67.5°F, humidity: 35.5% 
+      @ Sun Jan 31 2021 19:01:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601760ece4cc6002d96187b0
+temp: 19.9°C / 67.8°F, humidity: 34.1% 
+      @ Sun Jan 31 2021 19:05:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601761e0e4cc6002d96187b1
+temp: 19.7°C / 67.5°F, humidity: 34.8% 
+      @ Sun Jan 31 2021 19:10:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60176307e4cc6002d96187b2
+temp: 19.4°C / 66.9°F, humidity: 35.0% 
+      @ Sun Jan 31 2021 19:15:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60176434e4cc6002d96187b3
+temp: 19.7°C / 67.5°F, humidity: 35.2% 
+      @ Sun Jan 31 2021 19:20:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017655fe4cc6002d96187b4
+temp: 20.1°C / 68.2°F, humidity: 33.5% 
+      @ Sun Jan 31 2021 19:25:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017668be4cc6002d96187b5
+temp: 19.7°C / 67.5°F, humidity: 34.5% 
+      @ Sun Jan 31 2021 19:30:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601767b7e4cc6002d96187b6
+temp: 19.5°C / 67.1°F, humidity: 34.8% 
+      @ Sun Jan 31 2021 19:35:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601768e3e4cc6002d96187b7
+temp: 20.0°C / 68.0°F, humidity: 34.5% 
+      @ Sun Jan 31 2021 19:40:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60176a0fe4cc6002d96187b8
+temp: 20.1°C / 68.2°F, humidity: 33.2% 
+      @ Sun Jan 31 2021 19:45:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60176b81e4cc6002d96187b9
+temp: 19.8°C / 67.6°F, humidity: 34.2% 
+      @ Sun Jan 31 2021 19:50:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60176c68e4cc6002d96187ba
+temp: 19.6°C / 67.3°F, humidity: 34.3% 
+      @ Sun Jan 31 2021 19:55:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60176d93e4cc6002d96187bb
+temp: 20.2°C / 68.4°F, humidity: 33.7% 
+      @ Sun Jan 31 2021 20:00:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60176ec0e4cc6002d96187bc
+temp: 20.1°C / 68.2°F, humidity: 33.1% 
+      @ Sun Jan 31 2021 20:05:15 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60176fece4cc6002d96187bd
+temp: 19.8°C / 67.6°F, humidity: 33.7% 
+      @ Sun Jan 31 2021 20:10:15 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177118e4cc6002d96187be
+temp: 19.7°C / 67.5°F, humidity: 33.9% 
+      @ Sun Jan 31 2021 20:15:15 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177244e4cc6002d96187bf
+temp: 20.5°C / 68.9°F, humidity: 33.1% 
+      @ Sun Jan 31 2021 20:20:15 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177370e4cc6002d96187c0
+temp: 20.1°C / 68.2°F, humidity: 32.7% 
+      @ Sun Jan 31 2021 20:25:15 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017749ce4cc6002d96187c1
+temp: 19.9°C / 67.8°F, humidity: 33.3% 
+      @ Sun Jan 31 2021 20:30:15 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601775c8e4cc6002d96187c2
+temp: 20.0°C / 68.0°F, humidity: 33.4% 
+      @ Sun Jan 31 2021 20:35:15 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601776f4e4cc6002d96187c3
+temp: 20.8°C / 69.4°F, humidity: 32.5% 
+      @ Sun Jan 31 2021 20:40:15 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 20:42:45 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 20.0°C / 68.0°F, humidity: 33.0% 
+      @ Sun Jan 31 2021 20:45:17 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177950e19a13029c74f452
+temp: 20.0°C / 68.0°F, humidity: 33.1% 
+      @ Sun Jan 31 2021 20:49:17 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177a3ee19a13029c74f453
+temp: 19.9°C / 67.8°F, humidity: 33.1% 
+      @ Sun Jan 31 2021 20:54:17 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177b6ae19a13029c74f454
+temp: 20.8°C / 69.4°F, humidity: 32.0% 
+      @ Sun Jan 31 2021 20:59:17 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177c9be19a13029c74f455
+[0mGET / [32m200 [0m1714.864 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m10.189 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m5.331 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m5.469 ms - -[0m
+[0mGET /data [32m200 [0m1363.015 ms - 86063[0m
+temp: 20.3°C / 68.5°F, humidity: 32.3% 
+      @ Sun Jan 31 2021 21:04:17 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177dc2e19a13029c74f456
+temp: 20.1°C / 68.2°F, humidity: 32.9% 
+      @ Sun Jan 31 2021 21:09:17 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60177f35e19a13029c74f457
+temp: 20.1°C / 68.2°F, humidity: 32.9% 
+      @ Sun Jan 31 2021 21:14:17 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017801ae19a13029c74f458
+temp: 20.1°C / 68.2°F, humidity: 33.1% 
+      @ Sun Jan 31 2021 21:19:17 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 21:21:47 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 20.0°C / 68.0°F, humidity: 33.4% 
+      @ Sun Jan 31 2021 21:23:19 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017823aa560a302cc3ce928
+temp: 20.5°C / 68.9°F, humidity: 32.6% 
+      @ Sun Jan 31 2021 21:27:19 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60178329a560a302cc3ce929
+temp: 20.4°C / 68.7°F, humidity: 32.0% 
+      @ Sun Jan 31 2021 21:32:19 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Sun Jan 31 2021 21:34:49 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 20.1°C / 68.2°F, humidity: 32.8% 
+      @ Sun Jan 31 2021 21:36:49 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017856499d38102c7e975e7
+temp: 20.0°C / 68.0°F, humidity: 32.9% 
+      @ Sun Jan 31 2021 21:40:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017865399d38102c7e975e8
+temp: 20.0°C / 68.0°F, humidity: 33.0% 
+      @ Sun Jan 31 2021 21:45:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017877f99d38102c7e975e9
+temp: 20.5°C / 68.9°F, humidity: 32.4% 
+      @ Sun Jan 31 2021 21:50:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601788ab99d38102c7e975ea
+temp: 20.1°C / 68.2°F, humidity: 32.5% 
+      @ Sun Jan 31 2021 21:55:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601789d799d38102c7e975eb
+temp: 20.0°C / 68.0°F, humidity: 32.5% 
+      @ Sun Jan 31 2021 22:00:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60178b0399d38102c7e975ec
+temp: 20.0°C / 68.0°F, humidity: 32.7% 
+      @ Sun Jan 31 2021 22:05:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60178c2f99d38102c7e975ed
+temp: 19.8°C / 67.6°F, humidity: 32.7% 
+      @ Sun Jan 31 2021 22:10:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60178d5b99d38102c7e975ee
+temp: 19.8°C / 67.6°F, humidity: 32.9% 
+      @ Sun Jan 31 2021 22:15:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60178ecd99d38102c7e975ef
+temp: 19.7°C / 67.5°F, humidity: 33.1% 
+      @ Sun Jan 31 2021 22:20:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60178fb399d38102c7e975f0
+temp: 19.6°C / 67.3°F, humidity: 33.1% 
+      @ Sun Jan 31 2021 22:25:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601790df99d38102c7e975f1
+temp: 19.6°C / 67.3°F, humidity: 33.2% 
+      @ Sun Jan 31 2021 22:30:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017920b99d38102c7e975f2
+[0mGET / [32m200 [0m1600.650 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m9.739 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m9.515 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m5.387 ms - -[0m
+[0mGET /data [32m200 [0m1481.411 ms - 86615[0m
+temp: 19.5°C / 67.1°F, humidity: 33.4% 
+      @ Sun Jan 31 2021 22:35:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017933799d38102c7e975f3
+temp: 19.5°C / 67.1°F, humidity: 33.7% 
+      @ Sun Jan 31 2021 22:40:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017946399d38102c7e975f4
+temp: 19.6°C / 67.3°F, humidity: 34.6% 
+      @ Sun Jan 31 2021 22:45:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017959099d38102c7e975f5
+[0mGET / [32m200 [0m2204.481 ms - 2632[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.904 ms - -[0m
+[0mGET /scripts/index-chart.js [36m304 [0m3.232 ms - -[0m
+[0mGET /images/favicon.png [36m304 [0m6.393 ms - -[0m
+[0mGET /data [32m200 [0m1234.921 ms - 86435[0m
+temp: 19.4°C / 66.9°F, humidity: 34.9% 
+      @ Sun Jan 31 2021 22:50:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601796bc99d38102c7e975f6
+temp: 19.5°C / 67.1°F, humidity: 35.4% 
+      @ Sun Jan 31 2021 22:55:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601797e899d38102c7e975f7
+temp: 19.6°C / 67.3°F, humidity: 36.0% 
+      @ Sun Jan 31 2021 23:00:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017991499d38102c7e975f8
+temp: 19.6°C / 67.3°F, humidity: 36.5% 
+      @ Sun Jan 31 2021 23:05:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60179a4099d38102c7e975f9
+temp: 19.5°C / 67.1°F, humidity: 36.2% 
+      @ Sun Jan 31 2021 23:10:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60179b6c99d38102c7e975fa
+temp: 19.5°C / 67.1°F, humidity: 36.7% 
+      @ Sun Jan 31 2021 23:15:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60179c9899d38102c7e975fb
+temp: 19.6°C / 67.3°F, humidity: 38.5% 
+      @ Sun Jan 31 2021 23:20:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60179dc499d38102c7e975fc
+temp: 19.6°C / 67.3°F, humidity: 40.0% 
+      @ Sun Jan 31 2021 23:25:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60179ef199d38102c7e975fd
+temp: 19.5°C / 67.1°F, humidity: 39.7% 
+      @ Sun Jan 31 2021 23:30:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017a01c99d38102c7e975fe
+temp: 19.5°C / 67.1°F, humidity: 39.8% 
+      @ Sun Jan 31 2021 23:35:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017a14999d38102c7e975ff
+temp: 19.4°C / 66.9°F, humidity: 39.5% 
+      @ Sun Jan 31 2021 23:40:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017a27599d38102c7e97600
+temp: 19.3°C / 66.7°F, humidity: 39.2% 
+      @ Sun Jan 31 2021 23:45:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017a3a199d38102c7e97601
+temp: 19.2°C / 66.6°F, humidity: 39.2% 
+      @ Sun Jan 31 2021 23:50:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017a4cd99d38102c7e97602
+temp: 19.0°C / 66.2°F, humidity: 39.4% 
+      @ Sun Jan 31 2021 23:55:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017a5f999d38102c7e97603
+temp: 19.0°C / 66.2°F, humidity: 39.4% 
+      @ Mon Feb 01 2021 00:00:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017a72599d38102c7e97604
+temp: 18.9°C / 66.0°F, humidity: 39.6% 
+      @ Mon Feb 01 2021 00:05:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017a85199d38102c7e97605
+temp: 18.7°C / 65.7°F, humidity: 39.7% 
+      @ Mon Feb 01 2021 00:10:52 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 00:13:22 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 18.7°C / 65.7°F, humidity: 40.0% 
+      @ Mon Feb 01 2021 00:15:49 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017aaa85d1dd602c8533c22
+temp: 18.6°C / 65.5°F, humidity: 40.1% 
+      @ Mon Feb 01 2021 00:19:49 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017ab975d1dd602c8533c23
+temp: 18.7°C / 65.7°F, humidity: 40.4% 
+      @ Mon Feb 01 2021 00:24:49 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017acc35d1dd602c8533c24
+temp: 18.7°C / 65.7°F, humidity: 41.3% 
+      @ Mon Feb 01 2021 00:29:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017adef5d1dd602c8533c25
+temp: 18.6°C / 65.5°F, humidity: 41.1% 
+      @ Mon Feb 01 2021 00:34:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017af1b5d1dd602c8533c26
+temp: 18.5°C / 65.3°F, humidity: 42.0% 
+      @ Mon Feb 01 2021 00:39:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017b0475d1dd602c8533c27
+temp: 18.4°C / 65.1°F, humidity: 42.0% 
+      @ Mon Feb 01 2021 00:44:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017b1735d1dd602c8533c28
+temp: 18.4°C / 65.1°F, humidity: 42.0% 
+      @ Mon Feb 01 2021 00:49:50 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017b29f5d1dd602c8533c29
+temp: 18.3°C / 64.9°F, humidity: 42.8% 
+      @ Mon Feb 01 2021 00:54:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017b3cb5d1dd602c8533c2a
+temp: 18.3°C / 64.9°F, humidity: 42.8% 
+      @ Mon Feb 01 2021 00:59:50 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 01:02:20 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 18.3°C / 64.9°F, humidity: 43.2% 
+      @ Mon Feb 01 2021 01:03:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017b5eb4fb1f202ca0277e9
+temp: 18.2°C / 64.8°F, humidity: 42.9% 
+      @ Mon Feb 01 2021 01:07:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017b6da4fb1f202ca0277ea
+temp: 18.2°C / 64.8°F, humidity: 43.8% 
+      @ Mon Feb 01 2021 01:12:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017b8064fb1f202ca0277eb
+temp: 18.0°C / 64.4°F, humidity: 43.8% 
+      @ Mon Feb 01 2021 01:17:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017b9324fb1f202ca0277ec
+temp: 18.2°C / 64.8°F, humidity: 45.1% 
+      @ Mon Feb 01 2021 01:22:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017ba5e4fb1f202ca0277ed
+temp: 18.2°C / 64.8°F, humidity: 44.6% 
+      @ Mon Feb 01 2021 01:27:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017bb8a4fb1f202ca0277ee
+temp: 18.1°C / 64.6°F, humidity: 44.7% 
+      @ Mon Feb 01 2021 01:32:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017bcb64fb1f202ca0277ef
+temp: 18.1°C / 64.6°F, humidity: 46.1% 
+      @ Mon Feb 01 2021 01:37:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017be284fb1f202ca0277f0
+temp: 18.1°C / 64.6°F, humidity: 46.0% 
+      @ Mon Feb 01 2021 01:42:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017bf0e4fb1f202ca0277f1
+temp: 17.9°C / 64.2°F, humidity: 45.9% 
+      @ Mon Feb 01 2021 01:47:53 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 01:50:23 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 17.9°C / 64.2°F, humidity: 45.5% 
+      @ Mon Feb 01 2021 01:52:32 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017c153e213bb02e3be69f2
+temp: 17.9°C / 64.2°F, humidity: 46.8% 
+      @ Mon Feb 01 2021 01:56:32 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017c242e213bb02e3be69f3
+temp: 17.9°C / 64.2°F, humidity: 46.7% 
+      @ Mon Feb 01 2021 02:01:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017c3b5e213bb02e3be69f4
+temp: 17.7°C / 63.9°F, humidity: 46.8% 
+      @ Mon Feb 01 2021 02:06:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017c49ae213bb02e3be69f5
+temp: 17.7°C / 63.9°F, humidity: 46.7% 
+      @ Mon Feb 01 2021 02:11:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017c5c6e213bb02e3be69f6
+temp: 17.7°C / 63.9°F, humidity: 46.4% 
+      @ Mon Feb 01 2021 02:16:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017c6f2e213bb02e3be69f7
+temp: 17.6°C / 63.7°F, humidity: 48.0% 
+      @ Mon Feb 01 2021 02:21:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017c81fe213bb02e3be69f8
+temp: 17.6°C / 63.7°F, humidity: 48.0% 
+      @ Mon Feb 01 2021 02:26:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017c94ae213bb02e3be69f9
+temp: 17.6°C / 63.7°F, humidity: 47.5% 
+      @ Mon Feb 01 2021 02:31:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017ca76e213bb02e3be69fa
+temp: 17.5°C / 63.5°F, humidity: 48.2% 
+      @ Mon Feb 01 2021 02:36:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017cba2e213bb02e3be69fb
+temp: 17.5°C / 63.5°F, humidity: 49.7% 
+      @ Mon Feb 01 2021 02:41:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017cccee213bb02e3be69fc
+temp: 17.6°C / 63.7°F, humidity: 45.1% 
+      @ Mon Feb 01 2021 02:46:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017cdfae213bb02e3be69fd
+temp: 17.6°C / 63.7°F, humidity: 47.3% 
+      @ Mon Feb 01 2021 02:51:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017cf26e213bb02e3be69fe
+temp: 17.5°C / 63.5°F, humidity: 46.5% 
+      @ Mon Feb 01 2021 02:56:33 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017d052e213bb02e3be69ff
+temp: 17.5°C / 63.5°F, humidity: 46.5% 
+      @ Mon Feb 01 2021 03:01:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017d17fe213bb02e3be6a00
+temp: 17.6°C / 63.7°F, humidity: 45.0% 
+      @ Mon Feb 01 2021 03:06:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017d2abe213bb02e3be6a01
+temp: 17.6°C / 63.7°F, humidity: 46.8% 
+      @ Mon Feb 01 2021 03:11:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017d3d7e213bb02e3be6a02
+temp: 17.5°C / 63.5°F, humidity: 46.6% 
+      @ Mon Feb 01 2021 03:16:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017d503e213bb02e3be6a03
+temp: 17.5°C / 63.5°F, humidity: 46.1% 
+      @ Mon Feb 01 2021 03:21:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017d62fe213bb02e3be6a04
+temp: 17.6°C / 63.7°F, humidity: 42.9% 
+      @ Mon Feb 01 2021 03:26:34 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017d75be213bb02e3be6a05
+temp: 17.6°C / 63.7°F, humidity: 44.4% 
+      @ Mon Feb 01 2021 03:31:34 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 03:34:04 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 17.5°C / 63.5°F, humidity: 45.3% 
+      @ Mon Feb 01 2021 03:36:38 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017d9b927fba802c92e704d
+temp: 17.6°C / 63.7°F, humidity: 46.0% 
+      @ Mon Feb 01 2021 03:40:38 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017daa727fba802c92e704e
+temp: 17.6°C / 63.7°F, humidity: 44.9% 
+      @ Mon Feb 01 2021 03:45:39 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017dbd427fba802c92e704f
+temp: 17.6°C / 63.7°F, humidity: 44.8% 
+      @ Mon Feb 01 2021 03:50:38 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017dd4527fba802c92e7050
+temp: 17.6°C / 63.7°F, humidity: 45.3% 
+      @ Mon Feb 01 2021 03:55:39 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017de2c27fba802c92e7051
+temp: 17.6°C / 63.7°F, humidity: 45.3% 
+      @ Mon Feb 01 2021 04:00:39 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 04:03:09 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 17.7°C / 63.9°F, humidity: 44.7% 
+      @ Mon Feb 01 2021 04:05:09 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 04:07:40 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 17.6°C / 63.7°F, humidity: 44.8% 
+      @ Mon Feb 01 2021 04:10:11 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017e195ac8c6002c91eaae2
+temp: 17.6°C / 63.7°F, humidity: 45.9% 
+      @ Mon Feb 01 2021 04:14:11 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017e284ac8c6002c91eaae3
+temp: 17.6°C / 63.7°F, humidity: 45.2% 
+      @ Mon Feb 01 2021 04:19:11 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017e3b0ac8c6002c91eaae4
+temp: 17.8°C / 64.0°F, humidity: 44.5% 
+      @ Mon Feb 01 2021 04:24:11 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017e4dcac8c6002c91eaae5
+temp: 17.8°C / 64.0°F, humidity: 44.2% 
+      @ Mon Feb 01 2021 04:29:11 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017e608ac8c6002c91eaae6
+temp: 17.7°C / 63.9°F, humidity: 44.0% 
+      @ Mon Feb 01 2021 04:34:11 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017e734ac8c6002c91eaae7
+temp: 17.6°C / 63.7°F, humidity: 44.2% 
+      @ Mon Feb 01 2021 04:39:11 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017e860ac8c6002c91eaae8
+temp: 17.6°C / 63.7°F, humidity: 45.3% 
+      @ Mon Feb 01 2021 04:44:11 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 04:46:41 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 17.9°C / 64.2°F, humidity: 44.8% 
+      @ Mon Feb 01 2021 04:48:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017ea80ec0e1f02c5106feb
+temp: 17.8°C / 64.0°F, humidity: 44.5% 
+      @ Mon Feb 01 2021 04:52:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017eb6fec0e1f02c5106fec
+temp: 17.7°C / 63.9°F, humidity: 43.7% 
+      @ Mon Feb 01 2021 04:57:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017ec9cec0e1f02c5106fed
+temp: 17.6°C / 63.7°F, humidity: 44.9% 
+      @ Mon Feb 01 2021 05:02:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017edc8ec0e1f02c5106fee
+temp: 17.6°C / 63.7°F, humidity: 44.9% 
+      @ Mon Feb 01 2021 05:07:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017eef8ec0e1f02c5106fef
+temp: 17.9°C / 64.2°F, humidity: 44.3% 
+      @ Mon Feb 01 2021 05:12:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017f01fec0e1f02c5106ff0
+temp: 17.8°C / 64.0°F, humidity: 42.9% 
+      @ Mon Feb 01 2021 05:17:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017f14bec0e1f02c5106ff1
+temp: 17.7°C / 63.9°F, humidity: 43.0% 
+      @ Mon Feb 01 2021 05:22:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017f277ec0e1f02c5106ff2
+temp: 17.7°C / 63.9°F, humidity: 45.0% 
+      @ Mon Feb 01 2021 05:27:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017f3a3ec0e1f02c5106ff3
+temp: 17.7°C / 63.9°F, humidity: 44.9% 
+      @ Mon Feb 01 2021 05:32:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017f4cfec0e1f02c5106ff4
+temp: 17.9°C / 64.2°F, humidity: 44.2% 
+      @ Mon Feb 01 2021 05:37:14 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017f5fbec0e1f02c5106ff5
+temp: 17.8°C / 64.0°F, humidity: 44.3% 
+      @ Mon Feb 01 2021 05:42:15 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 05:44:45 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 17.8°C / 64.0°F, humidity: 44.8% 
+      @ Mon Feb 01 2021 05:47:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017f85dfefc1802e9c7d620
+temp: 17.7°C / 63.9°F, humidity: 44.2% 
+      @ Mon Feb 01 2021 05:51:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017f94bfefc1802e9c7d621
+temp: 18.0°C / 64.4°F, humidity: 43.9% 
+      @ Mon Feb 01 2021 05:56:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017fa77fefc1802e9c7d622
+temp: 18.0°C / 64.4°F, humidity: 43.8% 
+      @ Mon Feb 01 2021 06:01:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017fba3fefc1802e9c7d623
+temp: 17.9°C / 64.2°F, humidity: 43.6% 
+      @ Mon Feb 01 2021 06:06:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017fccffefc1802e9c7d624
+temp: 17.8°C / 64.0°F, humidity: 43.7% 
+      @ Mon Feb 01 2021 06:11:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017fe00fefc1802e9c7d625
+temp: 17.8°C / 64.0°F, humidity: 43.6% 
+      @ Mon Feb 01 2021 06:16:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6017ff27fefc1802e9c7d626
+temp: 17.7°C / 63.9°F, humidity: 43.5% 
+      @ Mon Feb 01 2021 06:21:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60180053fefc1802e9c7d627
+temp: 17.8°C / 64.0°F, humidity: 44.3% 
+      @ Mon Feb 01 2021 06:26:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018017ffefc1802e9c7d628
+temp: 18.0°C / 64.4°F, humidity: 42.4% 
+      @ Mon Feb 01 2021 06:31:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601802acfefc1802e9c7d629
+temp: 17.9°C / 64.2°F, humidity: 43.3% 
+      @ Mon Feb 01 2021 06:36:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601803d8fefc1802e9c7d62a
+temp: 17.8°C / 64.0°F, humidity: 43.8% 
+      @ Mon Feb 01 2021 06:41:22 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60180504fefc1802e9c7d62b
+temp: 17.8°C / 64.0°F, humidity: 44.3% 
+      @ Mon Feb 01 2021 06:46:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60180630fefc1802e9c7d62c
+temp: 17.8°C / 64.0°F, humidity: 44.8% 
+      @ Mon Feb 01 2021 06:51:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018075cfefc1802e9c7d62d
+temp: 17.9°C / 64.2°F, humidity: 42.7% 
+      @ Mon Feb 01 2021 06:56:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60180888fefc1802e9c7d62e
+temp: 17.9°C / 64.2°F, humidity: 42.7% 
+      @ Mon Feb 01 2021 07:01:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601809fafefc1802e9c7d62f
+temp: 17.9°C / 64.2°F, humidity: 42.9% 
+      @ Mon Feb 01 2021 07:06:23 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60180ae0fefc1802e9c7d630
+temp: 17.8°C / 64.0°F, humidity: 44.7% 
+      @ Mon Feb 01 2021 07:11:23 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 07:13:53 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 18.1°C / 64.6°F, humidity: 43.9% 
+      @ Mon Feb 01 2021 07:15:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60180d1b65b67002ccb2796e
+temp: 18.5°C / 65.3°F, humidity: 42.2% 
+      @ Mon Feb 01 2021 07:19:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60180e0a65b67002ccb2796f
+temp: 18.8°C / 65.8°F, humidity: 41.1% 
+      @ Mon Feb 01 2021 07:24:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60180f3665b67002ccb27970
+temp: 19.1°C / 66.4°F, humidity: 40.5% 
+      @ Mon Feb 01 2021 07:29:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018106265b67002ccb27971
+temp: 19.6°C / 67.3°F, humidity: 39.6% 
+      @ Mon Feb 01 2021 07:34:53 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018118e65b67002ccb27972
+temp: 19.6°C / 67.3°F, humidity: 39.6% 
+      @ Mon Feb 01 2021 07:39:53 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 07:42:23 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 20.1°C / 68.2°F, humidity: 39.3% 
+      @ Mon Feb 01 2021 07:45:00 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601813ee78df3f02d451ce5d
+temp: 20.0°C / 68.0°F, humidity: 39.2% 
+      @ Mon Feb 01 2021 07:48:59 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601814dd78df3f02d451ce5e
+temp: 20.2°C / 68.4°F, humidity: 39.7% 
+      @ Mon Feb 01 2021 07:53:59 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018160978df3f02d451ce5f
+temp: 20.3°C / 68.5°F, humidity: 39.4% 
+      @ Mon Feb 01 2021 07:59:00 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018177b78df3f02d451ce60
+temp: 20.5°C / 68.9°F, humidity: 39.3% 
+      @ Mon Feb 01 2021 08:04:00 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018186178df3f02d451ce61
+temp: 20.6°C / 69.1°F, humidity: 39.1% 
+      @ Mon Feb 01 2021 08:09:00 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 08:11:30 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 20.5°C / 68.9°F, humidity: 40.5% 
+      @ Mon Feb 01 2021 08:13:38 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60181aa5a8d65502ca1a0cc8
+temp: 20.8°C / 69.4°F, humidity: 39.4% 
+      @ Mon Feb 01 2021 08:17:38 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60181b94a8d65502ca1a0cc9
+temp: 21.0°C / 69.8°F, humidity: 39.0% 
+      @ Mon Feb 01 2021 08:22:38 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60181cc0a8d65502ca1a0cca
+temp: 20.8°C / 69.4°F, humidity: 39.2% 
+      @ Mon Feb 01 2021 08:27:38 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60181deca8d65502ca1a0ccb
+temp: 20.9°C / 69.6°F, humidity: 39.9% 
+      @ Mon Feb 01 2021 08:32:39 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 08:35:09 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 21.2°C / 70.2°F, humidity: 39.1% 
+      @ Mon Feb 01 2021 08:36:49 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601820135d993a02e2dead63
+temp: 21.1°C / 70.0°F, humidity: 37.1% 
+      @ Mon Feb 01 2021 08:40:49 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601821025d993a02e2dead64
+temp: 21.2°C / 70.2°F, humidity: 37.1% 
+      @ Mon Feb 01 2021 08:45:49 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018222e5d993a02e2dead65
+temp: 21.1°C / 70.0°F, humidity: 36.9% 
+      @ Mon Feb 01 2021 08:50:49 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 08:53:19 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 21.6°C / 70.9°F, humidity: 35.1% 
+      @ Mon Feb 01 2021 08:54:51 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018244e0374f102e09a0128
+temp: 21.6°C / 70.9°F, humidity: 34.5% 
+      @ Mon Feb 01 2021 08:58:52 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018253d0374f102e09a0129
+temp: 21.5°C / 70.7°F, humidity: 34.4% 
+      @ Mon Feb 01 2021 09:03:51 GMT-0700 (Mountain Standard Time)
+Unable to post data: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.nsx9x.mongodb.net
+Rebooting RPi @ Mon Feb 01 2021 09:06:22 GMT-0700 (Mountain Standard Time) ...
+stdout: 
+stderr: 
+
+> env@0.0.0 start
+> node ./bin/www
+
+temp: 21.5°C / 70.7°F, humidity: 32.4% 
+      @ Mon Feb 01 2021 09:07:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018275c9eb0bb02cb257980
+temp: 21.8°C / 71.2°F, humidity: 33.8% 
+      @ Mon Feb 01 2021 09:11:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 6018284b9eb0bb02cb257981
+temp: 21.8°C / 71.2°F, humidity: 34.0% 
+      @ Mon Feb 01 2021 09:16:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 601829779eb0bb02cb257982
+temp: 21.6°C / 70.9°F, humidity: 33.5% 
+      @ Mon Feb 01 2021 09:21:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60182aa39eb0bb02cb257983
+temp: 21.8°C / 71.2°F, humidity: 31.5% 
+      @ Mon Feb 01 2021 09:26:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60182bcf9eb0bb02cb257984
+temp: 21.9°C / 71.4°F, humidity: 31.4% 
+      @ Mon Feb 01 2021 09:31:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60182cfb9eb0bb02cb257985
+[0mGET / [32m200 [0m1699.110 ms - 2632[0m
+[0mGET /stylesheets/style.css [32m200 [0m17.973 ms - 709[0m
+[0mGET /scripts/index-chart.js [36m304 [0m7.272 ms - -[0m
+[0mGET /images/favicon.png [0m- [0m- ms - -[0m
+[0mGET /data [32m200 [0m1403.094 ms - 95633[0m
+temp: 22.0°C / 71.6°F, humidity: 31.1% 
+      @ Mon Feb 01 2021 09:36:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60182e279eb0bb02cb257986
+temp: 22.0°C / 71.6°F, humidity: 31.1% 
+      @ Mon Feb 01 2021 09:41:54 GMT-0700 (Mountain Standard Time)
+1 documents were inserted with the _id: 60182f539eb0bb02cb257987
