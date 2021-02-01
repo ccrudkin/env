@@ -3,7 +3,7 @@
 ## TODO:
 * Stabilize unsupervised running.
   * Why does it fail? WiFi/Internet disconnect? How to resolve?
-  * CXN to mongoDB fails. On fail, try to connect to something else reliable, e.g., Google, to rule out network issues. [Reference](https://paulgalow.com/how-to-check-for-internet-connectivity-node).
+  * CXN to mongoDB fails. On fail, try to connect to something else reliable, e.g., Google, to rule out network issues. [Reference](https://paulgalow.com/how-to-check-for-internet-connectivity-node). Use simpler mitigations before elevating to reboot.
   * Logging:
     * use logger (Winston?)
     * add DEBUG=app:* to cron task
