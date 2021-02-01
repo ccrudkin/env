@@ -30,19 +30,18 @@ Webpage displaying current T&H as a number, and **historical T&H data as a graph
 ### Phase 3
 \[x\] Run disconnected from SSH.  
 \[x\] Run from headless startup.  
-\[x\] Recover from power failure. 
-Add reboot button.  
+\[x\] Recover from power failure.  
+~~Add reboot button.~~  
 Push updates to page.  
 Requests beyond last 48-hour period, server-side scripts will handle.  
 Refactor code.  
 Add "table" mode with reduced number of data points.  
 
 ## Notes
-1. To keep running after exiting PuTTY, use `nohup npm start &` then `exit` before closing. Add `DEBUG=app:*` prior, as a discreet command, to turn on debugging.    
-Check on background processes issue with this solution.  
-2. Noticed failure to connect BEFORE an initial failed post to mdb. So it seems to be the network.
+1. To keep running after exiting PuTTY, use `nohup npm start &` then `exit` before closing. Add `DEBUG=app:*` prior, as a discreet command, to turn on debugging.
+2. Noticed failure to connect BEFORE an initial failed post to mdb. So it seems to be the network, at least sometimes.
 3. Strategy to catch failures: 
-  1. If server fails to connect to mongoDB Atlas, reboot. (Opt.: check another connection, like google)
+  1. If server fails to connect to mongoDB Atlas, reboot. (Opt.: check another connection, like Google.)
   2. Run server script on boot.
   3. Wait 60 seconds after script start before trying to send requests to allow for wifi connection.
 
