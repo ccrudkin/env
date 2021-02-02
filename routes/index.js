@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
       title: 'Home Environment Monitor', tempF: currentTemp, humidity: currentHum, date: currentTimestamp }); 
   })
   .catch((err) => { 
-    res.render('portfolio', { 
+    res.render('index', { 
       title: 'Home Environment Monitor', tempF: 'err', humidity: 'err', date: 'err' }); 
   }); // change to be more useful!
 });
