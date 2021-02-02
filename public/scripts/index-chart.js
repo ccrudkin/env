@@ -57,7 +57,6 @@ function formatData(data) {
 }
 
 function toolTipDate(isoD) {
-    isoD = new Date(isoD);
     let offset = isoD.getTimezoneOffset() * 60 * 1000;
     let localMS = isoD.getTime() - offset;
     let dateLocal = new Date(localMS);
