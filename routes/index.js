@@ -2,6 +2,7 @@ require('dotenv').config();
 var express = require('express');
 var router = express.Router();
 var exec = require('child_process').exec;
+var sensor = require("node-dht-sensor");
 const uri = process.env.mongodbUrl;
 
 /* GET home page. */
@@ -33,7 +34,6 @@ router.get('/data', (req, res, next) => {
 // read sensor
 // sample from https://github.com/momenso/node-dht-sensor
 
-var sensor = require("node-dht-sensor");
 let tf;
 let hum;
 let date;
@@ -49,9 +49,10 @@ function readSensor() {
     if (!err) {
       let tempF = (temperature * ( 9 / 5 )) + 32;
       tf = `${tempF.toFixed(1)}`;
+      temperature = temperature.toFixed(1);
       hum = `${humidity.toFixed(1)}`;
       date = `${getDate()}`;      
-      console.log(`temp: ${temperature.toFixed(1)}°C / ${tf}°F, humidity: ${hum}% 
+      console.log(`temp: ${temperature}°C / ${tf}°F, humidity: ${hum}% 
       @ ${date}`);
 
       mdbData = {
@@ -61,7 +62,7 @@ function readSensor() {
           },
           "data": {
               "temp": temperature,
-              "humidity": humidity
+              "humidity": hum
           },
           "location": location
       }      

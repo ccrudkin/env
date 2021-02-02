@@ -13,6 +13,8 @@
   * \[x\] Colors.  
   * \[x\] Mobile: don't display, display warning, or otherwise adapt to be readable.  
   * Shallower/shorter on full-width desktop; fit full chart on one screen.  
+* Efficiency
+  * Get data only once
 
 ## Main Features Desired
 

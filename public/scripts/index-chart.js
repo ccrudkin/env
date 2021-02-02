@@ -56,6 +56,15 @@ function formatData(data) {
     drawChart(formattedData);
 }
 
+function toolTipDate(isoD) {
+    let offset = isoD.getTimezoneOffset() * 60 * 1000;
+    let localMS = isoD.getTime() - offset;
+    let dateLocal = new Date(localMS);
+    let localISO = dateLocal.toISOString();
+    let localFormatted = `${localISO.slice(0, 10)} ${localISO.slice(11, 19)}`;
+    return localFormatted;
+}
+
 function drawChart(data) {
     var ctx = document.getElementById('chartFortyEight');
 
@@ -116,6 +125,16 @@ function drawChart(data) {
                         display: true
                     }
                 }]
+            },
+            tooltips: {
+                callbacks: {
+                    label: function(tooltipItem, data) {
+                        var label = data.datasets[tooltipItem.datasetIndex].label;
+    
+                        label = toolTipDate(label);
+                        return label;
+                    }
+                }
             }
         }
     });
