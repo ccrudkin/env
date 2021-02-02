@@ -62,7 +62,7 @@ function readSensor() {
           },
           "data": {
               "temp": temperature,
-              "humidity": hum
+              "humidity": humidity
           },
           "location": location
       }      
