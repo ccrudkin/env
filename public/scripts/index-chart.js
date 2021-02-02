@@ -56,9 +56,10 @@ function formatData(data) {
     drawChart(formattedData);
 }
 
-function formatDate(isoD) {
-    if (!typeof isoD.getDate === 'function') {
-        isoD = new Date(isoD);
+function formatDate(d) {
+    let isoD = d;
+    if (!typeof d.getDate === 'function') {
+        isoD = new Date(d);
     }
     // ^^^ temporary code to prevent breaking with switch to object ^^^
     let offset = isoD.getTimezoneOffset() * 60 * 1000;
