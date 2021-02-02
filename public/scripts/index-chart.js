@@ -126,7 +126,13 @@ function drawChart(data) {
                         display: true
                     }
                 }]
-            },
+            }
+        }
+    });
+}
+
+/*
+,
             tooltips: {
                 callbacks: {
                     label: function(tooltipItem, data) {
@@ -137,6 +143,4 @@ function drawChart(data) {
                     }
                 }
             }
-        }
-    });
-}
+            */
