@@ -26,7 +26,7 @@ function formatData(data) {
     for (i = 0; i < data.length; i++) {
         dataT.push(((data[i]['data']['temp'] * ( 9 / 5 )) + 32).toFixed(1));
         dataH.push(data[i]['data']['humidity'].toFixed(1));
-        labels.push(formateDate(data[i]['datetime']['timestamp']));
+        labels.push(formatDate(data[i]['datetime']['timestamp']));
     }
 
     let formattedData = {
@@ -56,7 +56,11 @@ function formatData(data) {
     drawChart(formattedData);
 }
 
-function formateDate(isoD) {
+function formatDate(isoD) {
+    if (!typeof isoD.getDate === 'function') {
+        isoD = new Date(isoD);
+    }
+    // ^^^ temporary code to prevent breaking with switch to object ^^^
     let offset = isoD.getTimezoneOffset() * 60 * 1000;
     let localMS = isoD.getTime() - offset;
     let dateLocal = new Date(localMS);
