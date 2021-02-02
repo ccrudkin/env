@@ -40,24 +40,20 @@ let date;
 let location = "masterBR";
 let mdbData;
 
-function getDate() {
-    return new Date();
-}
-
 function readSensor() {
   sensor.read(22, 4, function(err, temperature, humidity) {
     if (!err) {
       let tempF = (temperature * ( 9 / 5 )) + 32;
       tf = `${tempF.toFixed(1)}`;
       hum = `${humidity.toFixed(1)}`;
-      date = `${getDate()}`;      
+      date = new Date();      
       console.log(`temp: ${temperature}°C / ${tf}°F, humidity: ${hum}% 
       @ ${date}`);
 
       mdbData = {
           "datetime": {
               "timestamp": date,
-              "ms": Date.parse(date)
+              "ms": date.getTime()
           },
           "data": {
               "temp": temperature,
