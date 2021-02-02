@@ -9,7 +9,7 @@
     * add DEBUG=app:* to cron task
     * log file
 * Chart aeshetics and readability
-  * \+\+ Parse timestamps. For tooltips, use [tooltip callback function](https://www.chartjs.org/docs/latest/configuration/tooltip.html).  
+  * \[x\] Parse timestamps. For tooltips, use [tooltip callback function](https://www.chartjs.org/docs/latest/configuration/tooltip.html).  
   * \[x\] Colors.  
   * \[x\] Mobile: don't display, display warning, or otherwise adapt to be readable.  
   * Shallower/shorter on full-width desktop; fit full chart on one screen.  
