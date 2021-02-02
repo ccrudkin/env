@@ -57,7 +57,6 @@ function formatData(data) {
 }
 
 function toolTipDate(isoD) {
-    console.log(isoD);
     let offset = isoD.getTimezoneOffset() * 60 * 1000;
     let localMS = isoD.getTime() - offset;
     let dateLocal = new Date(localMS);
@@ -130,17 +129,3 @@ function drawChart(data) {
         }
     });
 }
-
-/*
-,
-            tooltips: {
-                callbacks: {
-                    label: function(tooltipItem, data) {
-                        var label = data.datasets[tooltipItem.datasetIndex].label;
-    
-                        label = toolTipDate(label);
-                        return label;
-                    }
-                }
-            }
-            */
