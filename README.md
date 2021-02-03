@@ -14,7 +14,7 @@
   * \[x\] Mobile: don't display, display warning, or otherwise adapt to be readable.  
   * Shallower/shorter on full-width desktop; fit full chart on one screen.  
 * Efficiency
-  * \+\+ Store date object, not string. Is this a breaking change?
+  * \[x\] Store date object, not string. Is this a breaking change?
   * \+ Get data only once
 
 ## Main Features Desired
