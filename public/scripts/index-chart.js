@@ -61,7 +61,7 @@ function checkDate(d) {
         let fd = new Date(d);
         return formatDate(fd);
     } else {
-        console.log(`[${}] is already a valid date.`);
+        console.log(`[${d}] is already a valid date.`);
         return formatDate(d);
     }
     // ^^^ temporary code to prevent breaking with switch to object ^^^
