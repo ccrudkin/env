@@ -57,7 +57,7 @@ function formatData(data) {
 }
 
 function checkDate(d) {
-    if (!typeof d.getDate === 'function') {
+    if (typeof d.getDate !== 'function') {
         let fd = new Date(d);
         return formatDate(fd);
     } else {
