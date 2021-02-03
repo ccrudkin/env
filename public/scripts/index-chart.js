@@ -61,13 +61,13 @@ function checkDate(d) {
         let fd = new Date(d);
         return formatDate(fd);
     } else {
+        console.log(`[${}] is already a valid date.`);
         return formatDate(d);
     }
     // ^^^ temporary code to prevent breaking with switch to object ^^^
 }
 
 function formatDate(isoD) {
-    console.log(`getDate [${isoD}] is a ${typeof isoD.getDate}`);
     let offset = isoD.getTimezoneOffset() * 60 * 1000;
     let localMS = isoD.getTime() - offset;
     let dateLocal = new Date(localMS);
