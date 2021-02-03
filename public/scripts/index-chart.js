@@ -26,7 +26,7 @@ function formatData(data) {
     for (i = 0; i < data.length; i++) {
         dataT.push(((data[i]['data']['temp'] * ( 9 / 5 )) + 32).toFixed(1));
         dataH.push(data[i]['data']['humidity'].toFixed(1));
-        labels.push(checkDate(data[i]['datetime']['ms']));
+        labels.push(checkDate(data[i]['datetime']['timestamp']));
     }
 
     let formattedData = {
@@ -67,6 +67,7 @@ function checkDate(d) {
 }
 
 function formatDate(isoD) {
+    console.log(`getDate [${isoD}] is a ${typeof isoD.getDate}`);
     let offset = isoD.getTimezoneOffset() * 60 * 1000;
     let localMS = isoD.getTime() - offset;
     let dateLocal = new Date(localMS);
