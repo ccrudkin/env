@@ -5,7 +5,6 @@
   * Why does it fail? WiFi/Internet disconnect? How to resolve?
   * \+ CXN to mongoDB fails. On fail, try to connect to something else reliable, e.g., Google, to rule out network issues. [Reference](https://paulgalow.com/how-to-check-for-internet-connectivity-node). Use simpler mitigations before elevating to reboot.
   * Logging:
-    * use logger (Winston?)
     * add DEBUG=app:* to cron task
     * log file
 * Chart aeshetics and readability
@@ -16,6 +15,13 @@
 * Efficiency
   * \[x\] Store date object, not string. Is this a breaking change?
   * \+ Get data only once
+* Multi-unit
+  * Make stability and efficiency improvements
+  * Move all differentiating variables to dotenv \(location, database\)
+  * New page layout, or use mutiple pages \(?\)
+  * Make main server cloud-based (Heroku)
+  * Seperate server code from sensor read and post code
+  * design file structure for ease of access and universality
 
 ## Main Features Desired
 
