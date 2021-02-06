@@ -18,7 +18,7 @@
 * Multi-unit
   * Make stability and efficiency improvements
   * Move all differentiating variables to dotenv \(location, database\)
-  * New page layout, or use mutiple pages \(?\)
+  * New page layout, or use mutiple pages \(?\); display location for each
   * Make main server cloud-based (Heroku)
   * Seperate server code from sensor read and post code
   * design file structure for ease of access and universality

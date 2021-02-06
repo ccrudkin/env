@@ -12,12 +12,13 @@ router.get('/', function(req, res, next) {
     let currentTemp = (((rData[rData.length - 1]['data']['temp']) * ( 9 / 5 )) + 32).toFixed(1);
     let currentHum = rData[rData.length - 1]['data']['humidity'].toFixed(1);
     let currentTimestamp = rData[rData.length - 1]['datetime']['timestamp'];
+    // render with unit location as well
     res.render('index', { 
       title: 'Home Environment Monitor', tempF: currentTemp, humidity: currentHum, date: currentTimestamp }); 
   })
   .catch((err) => { 
     res.render('index', { 
-      title: 'Home Environment Monitor', tempF: 'err', humidity: 'err', date: 'err' }); 
+      title: 'Home Environment Monitor', tempF: 'err', humidity: 'err', date: err }); 
   }); // change to be more useful!
 });
 
