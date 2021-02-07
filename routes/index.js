@@ -81,8 +81,8 @@ function postData(d) {
     try {
       await client.connect();
 
-      const database = client.db("env_logs");
-      const collection = database.collection("env");
+      const database = client.db(mdbName);
+      const collection = database.collection(mdbColl);
 
       // create a document to be inserted
       const doc = d;
