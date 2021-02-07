@@ -5,6 +5,8 @@ var exec = require('child_process').exec;
 var sensor = require("node-dht-sensor");
 const uri = process.env.mongodbUrl;
 const location = process.env.location;
+const mdbName = process.env.mdbName;
+const mdbColl = process.env.mdbColl;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -110,8 +112,8 @@ function retrieveData() {
       try {
         await client.connect();
   
-        const database = client.db("env_logs");
-        const collection = database.collection("env");
+        const database = client.db(mdbName);
+        const collection = database.collection(mdbColl);
   
         // CREATE query for the last 48 hours
         let timeNow = new Date();
