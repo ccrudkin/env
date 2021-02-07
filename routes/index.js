@@ -38,7 +38,7 @@ router.get('/data', (req, res, next) => {
 let tf;
 let hum;
 let date;
-let location = "familyRm";
+let location = "garage";
 let mdbData;
 
 function readSensor() {
