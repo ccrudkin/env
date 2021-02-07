@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
     let currentTimestamp = rData[rData.length - 1]['datetime']['timestamp'];
     // render with unit location as well
     res.render('index', { 
-      title: 'Home Environment Monitor', tempF: currentTemp, humidity: currentHum, date: currentTimestamp }); 
+      title: 'Home Environment Monitor', tempF: currentTemp, humidity: currentHum, date: currentTimestamp, location: location }); 
   })
   .catch((err) => { 
     res.render('index', { 
