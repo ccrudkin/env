@@ -4,6 +4,7 @@ var router = express.Router();
 var exec = require('child_process').exec;
 var sensor = require("node-dht-sensor");
 const uri = process.env.mongodbUrl;
+const location = process.env.location;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -38,7 +39,6 @@ router.get('/data', (req, res, next) => {
 let tf;
 let hum;
 let date;
-let location = "garage";
 let mdbData;
 
 function readSensor() {
