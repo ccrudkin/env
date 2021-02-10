@@ -53,6 +53,10 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 767px) {
+  body {
+    padding: 25px 15px;
+  }
+
   #chartContainer {
     display: none;
   }

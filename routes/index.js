@@ -7,6 +7,7 @@ const uri = process.env.mongodbUrl;
 const location = process.env.location;
 const mdbName = process.env.mdbName;
 const mdbColl = process.env.mdbColl;
+let currentData;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -26,9 +27,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/data', (req, res, next) => {
-  retrieveData()
-  .then((rData) => {
-    res.send(rData);
+  fetchCurrentData()
+  .then((fData) => {
+    res.send(fData);
   })
   .catch((err) => {
     res.send([ 'error', 'Error getting graph data.', err ]);
@@ -133,7 +134,7 @@ function retrieveData() {
         }
         // await cursor.forEach(console.dir);
         const allValues = await cursor.toArray();
-        // console.log (`All values:\n${allValues}`);
+        currentData = allValues;
         resolve(allValues);
       } catch (err) {
         console.log(`Unable to retrieve data: ${err}`)
@@ -142,6 +143,17 @@ function retrieveData() {
       }
     }
     run().catch(console.dir);    
+  });
+  return prom;
+}
+
+function fetchCurrentData() {
+  let prom = new Promise((resolve, reject) => {
+    if (currentData) {
+      resolve(currentData);
+    } else {
+      reject('Error: No local data fetched.');
+    }
   });
   return prom;
 }
