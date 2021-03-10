@@ -5,8 +5,8 @@
   * Why does it fail? WiFi/Internet disconnect? How to resolve?
   * \+ CXN to mongoDB fails. On fail, try to connect to something else reliable, e.g., Google, to rule out network issues. [Reference](https://paulgalow.com/how-to-check-for-internet-connectivity-node). Use simpler mitigations before elevating to reboot.
   * Logging:
-    * add DEBUG=app:* to cron task
-    * log file
+    * \[x\] add DEBUG=app:* to cron task, follow up with >> log.txt
+    * \[x\] log file
 * Chart aeshetics and readability
   * \[x\] Parse timestamps. For tooltips, use [tooltip callback function](https://www.chartjs.org/docs/latest/configuration/tooltip.html).  
   * \[x\] Colors.  
@@ -14,10 +14,10 @@
   * Shallower/shorter on full-width desktop; fit full chart on one screen.  
 * Efficiency
   * \[x\] Store date object, not string. Is this a breaking change?
-  * \+ Get data only once
+  * \[x\] Get data only once
 * Multi-unit
-  * Make stability and efficiency improvements
-  * Move all differentiating variables to dotenv \(location, database\)
+  * \[x\] Make stability and efficiency improvements
+  * \[x\] Move all differentiating variables to dotenv \(location, database\)
   * New page layout, or use mutiple pages \(?\); display location for each
   * Make main server cloud-based (Heroku)
   * Seperate server code from sensor read and post code
